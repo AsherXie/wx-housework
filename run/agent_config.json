@@ -75,7 +75,7 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "/Users/asher/study/wx-housework/node_modules/_egg-onerror@2.1.0@egg-onerror/lib/onerror_page.mustache"
+      "templatePath": "/root/wx-housework/node_modules/_egg-onerror@2.1.0@egg-onerror/lib/onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
@@ -86,10 +86,10 @@
       "cookieMaxAge": "1y"
     },
     "watcher": {
-      "type": "development",
+      "type": "default",
       "eventSources": {
-        "default": "/Users/asher/study/wx-housework/node_modules/_egg-watcher@3.1.0@egg-watcher/lib/event-sources/default",
-        "development": "/Users/asher/study/wx-housework/node_modules/_egg-watcher@3.1.0@egg-watcher/lib/event-sources/development"
+        "default": "/root/wx-housework/node_modules/_egg-watcher@3.1.0@egg-watcher/lib/event-sources/default",
+        "development": "/root/wx-housework/node_modules/_egg-watcher@3.1.0@egg-watcher/lib/event-sources/development"
       }
     },
     "customLogger": {
@@ -112,17 +112,10 @@
       "files": 10,
       "fileExtensions": [],
       "whitelist": null,
-      "tmpdir": "/var/folders/dn/gm8v3l213d32nrbc0f6q33xc0000gn/T/egg-multipart-tmp/ls",
+      "tmpdir": "/tmp/egg-multipart-tmp/ls",
       "cleanSchedule": {
         "cron": "0 30 4 * * *"
       }
-    },
-    "development": {
-      "watchDirs": [],
-      "ignoreDirs": [],
-      "fastReady": false,
-      "reloadOnDebug": true,
-      "overrideDefault": false
     },
     "logrotator": {
       "filesRotateByHour": null,
@@ -135,15 +128,16 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "/Users/asher/study/wx-housework/app/public",
+      "dir": "/root/wx-housework/app/public",
       "dynamic": true,
       "preload": false,
-      "buffer": false,
-      "maxFiles": 1000
+      "buffer": true,
+      "maxFiles": 1000,
+      "maxAge": 31536000
     },
     "view": {
-      "root": "/Users/asher/study/wx-housework/app/view",
-      "cache": false,
+      "root": "/root/wx-housework/app/view",
+      "cache": true,
       "defaultExtension": ".html",
       "defaultViewEngine": "nunjucks",
       "mapping": {
@@ -155,9 +149,9 @@
       "throwOnUndefined": false,
       "trimBlocks": false,
       "lstripBlocks": false,
-      "cache": false
+      "cache": true
     },
-    "env": "local",
+    "env": "prod",
     "name": "ls",
     "keys": "<String len: 6>",
     "cookies": {},
@@ -173,6 +167,8 @@
       "description": "",
       "main": "index.js",
       "scripts": {
+        "start": "egg-scripts start --daemon",
+        "stop": "egg-scripts stop",
         "dev": "egg-bin dev",
         "test": "echo \"Error: no test specified\" && exit 1"
       },
@@ -189,6 +185,7 @@
       "dependencies": {
         "await-stream-ready": "^1.0.1",
         "egg": "^2.26.0",
+        "egg-scripts": "^2.13.0",
         "egg-view-nunjucks": "^2.2.0",
         "moment": "^2.24.0",
         "stream-wormhole": "^1.1.0"
@@ -197,9 +194,9 @@
         "egg-bin": "^4.14.1"
       }
     },
-    "baseDir": "/Users/asher/study/wx-housework",
-    "HOME": "/Users/asher",
-    "rundir": "/Users/asher/study/wx-housework/run",
+    "baseDir": "/root/wx-housework",
+    "HOME": "/root",
+    "rundir": "/root/wx-housework/run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -231,21 +228,19 @@
       "onerror": "<Function onerror>"
     },
     "logger": {
-      "dir": "/Users/asher/study/wx-housework/logs/ls",
+      "dir": "/root/logs/ls",
       "encoding": "utf8",
-      "env": "local",
+      "env": "prod",
       "level": "INFO",
       "consoleLevel": "INFO",
-      "disableConsoleAfterReady": false,
+      "disableConsoleAfterReady": true,
       "outputJSON": false,
       "buffer": true,
       "appLogName": "ls-web.log",
       "coreLogName": "egg-web.log",
       "agentLogName": "egg-agent.log",
       "errorLogName": "common-error.log",
-      "coreLogger": {
-        "consoleLevel": "WARN"
-      },
+      "coreLogger": {},
       "allowDebugAtProd": false,
       "type": "agent"
     },
@@ -306,8 +301,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/plugin.js",
-      "path": "/Users/asher/study/wx-housework/node_modules/_egg-session@3.1.0@egg-session",
+      "from": "/root/wx-housework/node_modules/_egg@2.26.0@egg/config/plugin.js",
+      "path": "/root/wx-housework/node_modules/_egg-session@3.1.0@egg-session",
       "version": "3.1.0"
     },
     "security": {
@@ -319,8 +314,8 @@
         "session"
       ],
       "env": [],
-      "from": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/plugin.js",
-      "path": "/Users/asher/study/wx-housework/node_modules/_egg-security@2.7.1@egg-security",
+      "from": "/root/wx-housework/node_modules/_egg@2.26.0@egg/config/plugin.js",
+      "path": "/root/wx-housework/node_modules/_egg-security@2.7.1@egg-security",
       "version": "2.7.1"
     },
     "jsonp": {
@@ -332,8 +327,8 @@
         "security"
       ],
       "env": [],
-      "from": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/plugin.js",
-      "path": "/Users/asher/study/wx-housework/node_modules/_egg-jsonp@2.0.0@egg-jsonp",
+      "from": "/root/wx-housework/node_modules/_egg@2.26.0@egg/config/plugin.js",
+      "path": "/root/wx-housework/node_modules/_egg-jsonp@2.0.0@egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -345,8 +340,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/plugin.js",
-      "path": "/Users/asher/study/wx-housework/node_modules/_egg-onerror@2.1.0@egg-onerror",
+      "from": "/root/wx-housework/node_modules/_egg@2.26.0@egg/config/plugin.js",
+      "path": "/root/wx-housework/node_modules/_egg-onerror@2.1.0@egg-onerror",
       "version": "2.1.0"
     },
     "i18n": {
@@ -356,8 +351,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/plugin.js",
-      "path": "/Users/asher/study/wx-housework/node_modules/_egg-i18n@2.1.1@egg-i18n",
+      "from": "/root/wx-housework/node_modules/_egg@2.26.0@egg/config/plugin.js",
+      "path": "/root/wx-housework/node_modules/_egg-i18n@2.1.1@egg-i18n",
       "version": "2.1.1"
     },
     "watcher": {
@@ -367,8 +362,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/plugin.js",
-      "path": "/Users/asher/study/wx-housework/node_modules/_egg-watcher@3.1.0@egg-watcher",
+      "from": "/root/wx-housework/node_modules/_egg@2.26.0@egg/config/plugin.js",
+      "path": "/root/wx-housework/node_modules/_egg-watcher@3.1.0@egg-watcher",
       "version": "3.1.0"
     },
     "schedule": {
@@ -378,8 +373,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/plugin.js",
-      "path": "/Users/asher/study/wx-housework/node_modules/_egg-schedule@3.6.4@egg-schedule",
+      "from": "/root/wx-housework/node_modules/_egg@2.26.0@egg/config/plugin.js",
+      "path": "/root/wx-housework/node_modules/_egg-schedule@3.6.4@egg-schedule",
       "version": "3.6.4"
     },
     "multipart": {
@@ -391,24 +386,9 @@
         "schedule"
       ],
       "env": [],
-      "from": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/plugin.js",
-      "path": "/Users/asher/study/wx-housework/node_modules/_egg-multipart@2.10.1@egg-multipart",
+      "from": "/root/wx-housework/node_modules/_egg@2.26.0@egg/config/plugin.js",
+      "path": "/root/wx-housework/node_modules/_egg-multipart@2.10.1@egg-multipart",
       "version": "2.10.1"
-    },
-    "development": {
-      "enable": true,
-      "package": "egg-development",
-      "name": "development",
-      "dependencies": [
-        "watcher"
-      ],
-      "optionalDependencies": [],
-      "env": [
-        "local"
-      ],
-      "from": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/plugin.js",
-      "path": "/Users/asher/study/wx-housework/node_modules/_egg-development@2.4.3@egg-development",
-      "version": "2.4.3"
     },
     "logrotator": {
       "enable": true,
@@ -419,8 +399,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/plugin.js",
-      "path": "/Users/asher/study/wx-housework/node_modules/_egg-logrotator@3.1.0@egg-logrotator",
+      "from": "/root/wx-housework/node_modules/_egg@2.26.0@egg/config/plugin.js",
+      "path": "/root/wx-housework/node_modules/_egg-logrotator@3.1.0@egg-logrotator",
       "version": "3.1.0"
     },
     "static": {
@@ -430,8 +410,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/plugin.js",
-      "path": "/Users/asher/study/wx-housework/node_modules/_egg-static@2.2.0@egg-static",
+      "from": "/root/wx-housework/node_modules/_egg@2.26.0@egg/config/plugin.js",
+      "path": "/root/wx-housework/node_modules/_egg-static@2.2.0@egg-static",
       "version": "2.2.0"
     },
     "view": {
@@ -441,8 +421,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/plugin.js",
-      "path": "/Users/asher/study/wx-housework/node_modules/_egg-view@2.1.2@egg-view",
+      "from": "/root/wx-housework/node_modules/_egg@2.26.0@egg/config/plugin.js",
+      "path": "/root/wx-housework/node_modules/_egg-view@2.1.2@egg-view",
       "version": "2.1.2"
     },
     "nunjucks": {
@@ -455,8 +435,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/asher/study/wx-housework/config/plugin.js",
-      "path": "/Users/asher/study/wx-housework/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks",
+      "from": "/root/wx-housework/config/plugin.js",
+      "path": "/root/wx-housework/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks",
       "version": "2.2.0"
     }
   }
