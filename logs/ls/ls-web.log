@@ -299,3 +299,172 @@ message: "missing csrf token"
 pid: 995
 hostname: AsherdeMacBook-Pro.local
 
+2020-03-01 13:35:07,974 WARN 2242 [-/127.0.0.1/-/4ms POST /api/uploads] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-03-01 13:35:07,976 WARN 2242 [-/127.0.0.1/-/7ms POST /api/uploads] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/asher/study/wx-housework/node_modules/_koa@2.11.0@koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/asher/study/wx-housework/node_modules/_egg-security@2.7.1@egg-security/app/extend/context.js:162:19)
+    at csrf (/Users/asher/study/wx-housework/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/asher/study/wx-housework/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/asher/study/wx-housework/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/asher/study/wx-housework/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/asher/study/wx-housework/node_modules/_koa-session@5.13.1@koa-session/index.js:41:13)
+    at dispatch (/Users/asher/study/wx-housework/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at overrideMethod (/Users/asher/study/wx-housework/node_modules/_koa-override@3.0.0@koa-override/index.js:38:12)
+    at dispatch (/Users/asher/study/wx-housework/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 2242
+hostname: AsherdeMacBook-Pro.local
+
+2020-03-01 13:36:57,490 WARN 2242 [-/127.0.0.1/-/4ms POST /api/uploads] nodejs.BadRequestError: Content-Type must be multipart/*
+    at Object.throw (/Users/asher/study/wx-housework/node_modules/_koa@2.11.0@koa/lib/context.js:97:11)
+    at Object.multipart (/Users/asher/study/wx-housework/node_modules/_egg-multipart@2.10.1@egg-multipart/app/extend/context.js:166:17)
+    at Object.getFileStream (/Users/asher/study/wx-housework/node_modules/_egg-multipart@2.10.1@egg-multipart/app/extend/context.js:206:24)
+    at HomeController.HouseworkUpload (/Users/asher/study/wx-housework/app/controller/home.js:27:34)
+    at Object.callFn (/Users/asher/study/wx-housework/node_modules/_egg-core@4.17.4@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/asher/study/wx-housework/node_modules/_egg-core@4.17.4@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/asher/study/wx-housework/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/asher/study/wx-housework/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+message: "Content-Type must be multipart/*"
+pid: 2242
+hostname: AsherdeMacBook-Pro.local
+
+2020-03-01 13:38:27,789 WARN 2242 [-/127.0.0.1/-/0ms POST /api/uploads] nodejs.BadRequestError: Content-Type must be multipart/*
+    at Object.throw (/Users/asher/study/wx-housework/node_modules/_koa@2.11.0@koa/lib/context.js:97:11)
+    at Object.multipart (/Users/asher/study/wx-housework/node_modules/_egg-multipart@2.10.1@egg-multipart/app/extend/context.js:166:17)
+    at Object.getFileStream (/Users/asher/study/wx-housework/node_modules/_egg-multipart@2.10.1@egg-multipart/app/extend/context.js:206:24)
+    at HomeController.HouseworkUpload (/Users/asher/study/wx-housework/app/controller/home.js:27:34)
+    at Object.callFn (/Users/asher/study/wx-housework/node_modules/_egg-core@4.17.4@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/asher/study/wx-housework/node_modules/_egg-core@4.17.4@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/asher/study/wx-housework/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/asher/study/wx-housework/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+message: "Content-Type must be multipart/*"
+pid: 2242
+hostname: AsherdeMacBook-Pro.local
+
+2020-03-01 13:41:59,895 WARN 2242 [-/127.0.0.1/-/0ms POST /api/uploads] nodejs.BadRequestError: Content-Type must be multipart/*
+    at Object.throw (/Users/asher/study/wx-housework/node_modules/_koa@2.11.0@koa/lib/context.js:97:11)
+    at Object.multipart (/Users/asher/study/wx-housework/node_modules/_egg-multipart@2.10.1@egg-multipart/app/extend/context.js:166:17)
+    at Object.getFileStream (/Users/asher/study/wx-housework/node_modules/_egg-multipart@2.10.1@egg-multipart/app/extend/context.js:206:24)
+    at HomeController.HouseworkUpload (/Users/asher/study/wx-housework/app/controller/home.js:27:34)
+    at Object.callFn (/Users/asher/study/wx-housework/node_modules/_egg-core@4.17.4@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/asher/study/wx-housework/node_modules/_egg-core@4.17.4@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/asher/study/wx-housework/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/asher/study/wx-housework/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+message: "Content-Type must be multipart/*"
+pid: 2242
+hostname: AsherdeMacBook-Pro.local
+
+2020-03-01 13:44:42,064 WARN 2242 [-/127.0.0.1/-/0ms POST /api/uploads] nodejs.BadRequestError: Content-Type must be multipart/*
+    at Object.throw (/Users/asher/study/wx-housework/node_modules/_koa@2.11.0@koa/lib/context.js:97:11)
+    at Object.multipart (/Users/asher/study/wx-housework/node_modules/_egg-multipart@2.10.1@egg-multipart/app/extend/context.js:166:17)
+    at Object.getFileStream (/Users/asher/study/wx-housework/node_modules/_egg-multipart@2.10.1@egg-multipart/app/extend/context.js:206:24)
+    at HomeController.HouseworkUpload (/Users/asher/study/wx-housework/app/controller/home.js:27:34)
+    at Object.callFn (/Users/asher/study/wx-housework/node_modules/_egg-core@4.17.4@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/asher/study/wx-housework/node_modules/_egg-core@4.17.4@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/asher/study/wx-housework/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/asher/study/wx-housework/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+message: "Content-Type must be multipart/*"
+pid: 2242
+hostname: AsherdeMacBook-Pro.local
+
+2020-03-01 13:45:50,123 WARN 2242 [-/127.0.0.1/-/1ms POST /api/uploads] nodejs.BadRequestError: Content-Type must be multipart/*
+    at Object.throw (/Users/asher/study/wx-housework/node_modules/_koa@2.11.0@koa/lib/context.js:97:11)
+    at Object.multipart (/Users/asher/study/wx-housework/node_modules/_egg-multipart@2.10.1@egg-multipart/app/extend/context.js:166:17)
+    at Object.getFileStream (/Users/asher/study/wx-housework/node_modules/_egg-multipart@2.10.1@egg-multipart/app/extend/context.js:206:24)
+    at HomeController.HouseworkUpload (/Users/asher/study/wx-housework/app/controller/home.js:27:34)
+    at Object.callFn (/Users/asher/study/wx-housework/node_modules/_egg-core@4.17.4@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/asher/study/wx-housework/node_modules/_egg-core@4.17.4@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/asher/study/wx-housework/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/asher/study/wx-housework/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+message: "Content-Type must be multipart/*"
+pid: 2242
+hostname: AsherdeMacBook-Pro.local
+
+2020-03-01 13:46:57,681 WARN 2242 [-/127.0.0.1/-/1ms POST /api/uploads] nodejs.BadRequestError: Content-Type must be multipart/*
+    at Object.throw (/Users/asher/study/wx-housework/node_modules/_koa@2.11.0@koa/lib/context.js:97:11)
+    at Object.multipart (/Users/asher/study/wx-housework/node_modules/_egg-multipart@2.10.1@egg-multipart/app/extend/context.js:166:17)
+    at Object.getFileStream (/Users/asher/study/wx-housework/node_modules/_egg-multipart@2.10.1@egg-multipart/app/extend/context.js:206:24)
+    at HomeController.HouseworkUpload (/Users/asher/study/wx-housework/app/controller/home.js:27:34)
+    at Object.callFn (/Users/asher/study/wx-housework/node_modules/_egg-core@4.17.4@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/asher/study/wx-housework/node_modules/_egg-core@4.17.4@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/asher/study/wx-housework/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/asher/study/wx-housework/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+message: "Content-Type must be multipart/*"
+pid: 2242
+hostname: AsherdeMacBook-Pro.local
+
+2020-03-01 13:51:49,050 WARN 2242 [-/127.0.0.1/-/0ms POST /api/uploads] nodejs.BadRequestError: Content-Type must be multipart/*
+    at Object.throw (/Users/asher/study/wx-housework/node_modules/_koa@2.11.0@koa/lib/context.js:97:11)
+    at Object.multipart (/Users/asher/study/wx-housework/node_modules/_egg-multipart@2.10.1@egg-multipart/app/extend/context.js:166:17)
+    at Object.getFileStream (/Users/asher/study/wx-housework/node_modules/_egg-multipart@2.10.1@egg-multipart/app/extend/context.js:206:24)
+    at HomeController.HouseworkUpload (/Users/asher/study/wx-housework/app/controller/home.js:27:34)
+    at Object.callFn (/Users/asher/study/wx-housework/node_modules/_egg-core@4.17.4@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/asher/study/wx-housework/node_modules/_egg-core@4.17.4@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/asher/study/wx-housework/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/asher/study/wx-housework/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+message: "Content-Type must be multipart/*"
+pid: 2242
+hostname: AsherdeMacBook-Pro.local
+
+2020-03-01 14:57:39,542 WARN 2242 [-/127.0.0.1/-/2ms POST /api/uploads] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-03-01 14:57:39,542 WARN 2242 [-/127.0.0.1/-/2ms POST /api/uploads] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/asher/study/wx-housework/node_modules/_koa@2.11.0@koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/asher/study/wx-housework/node_modules/_egg-security@2.7.1@egg-security/app/extend/context.js:153:19)
+    at csrf (/Users/asher/study/wx-housework/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/asher/study/wx-housework/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/asher/study/wx-housework/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/asher/study/wx-housework/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/asher/study/wx-housework/node_modules/_koa-session@5.13.1@koa-session/index.js:41:13)
+    at dispatch (/Users/asher/study/wx-housework/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at overrideMethod (/Users/asher/study/wx-housework/node_modules/_koa-override@3.0.0@koa-override/index.js:38:12)
+    at dispatch (/Users/asher/study/wx-housework/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+message: "missing csrf token"
+pid: 2242
+hostname: AsherdeMacBook-Pro.local
+
+2020-03-01 15:03:56,349 ERROR 2404 [-/127.0.0.1/-/47ms POST /api/uploads] nodejs.Error: non-error thrown: 1111
+    at Object.app.context.onerror (/Users/asher/study/wx-housework/node_modules/_koa-onerror@4.1.0@koa-onerror/index.js:39:24)
+    at onerror (/Users/asher/study/wx-housework/node_modules/_koa@2.11.0@koa/lib/application.js:163:32)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 2404
+hostname: AsherdeMacBook-Pro.local
+
+2020-03-01 15:06:28,225 ERROR 2404 [-/127.0.0.1/-/6ms POST /api/uploads] nodejs.Error: non-error thrown: 1111
+    at Object.app.context.onerror (/Users/asher/study/wx-housework/node_modules/_koa-onerror@4.1.0@koa-onerror/index.js:39:24)
+    at onerror (/Users/asher/study/wx-housework/node_modules/_koa@2.11.0@koa/lib/application.js:163:32)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 2404
+hostname: AsherdeMacBook-Pro.local
+
+2020-03-01 15:13:49,453 ERROR 2404 [-/127.0.0.1/-/3ms POST /api/uploads] nodejs.Error: non-error thrown: 1111
+    at Object.app.context.onerror (/Users/asher/study/wx-housework/node_modules/_koa-onerror@4.1.0@koa-onerror/index.js:39:24)
+    at onerror (/Users/asher/study/wx-housework/node_modules/_koa@2.11.0@koa/lib/application.js:163:32)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 2404
+hostname: AsherdeMacBook-Pro.local
+
+2020-03-01 15:17:10,112 ERROR 2404 [-/127.0.0.1/-/2ms POST /api/uploads] nodejs.Error: non-error thrown: 1111
+    at Object.app.context.onerror (/Users/asher/study/wx-housework/node_modules/_koa-onerror@4.1.0@koa-onerror/index.js:39:24)
+    at onerror (/Users/asher/study/wx-housework/node_modules/_koa@2.11.0@koa/lib/application.js:163:32)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 2404
+hostname: AsherdeMacBook-Pro.local
+

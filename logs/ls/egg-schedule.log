@@ -145,3 +145,21 @@
 2020-03-01 11:45:01,967 INFO 1247 [egg-schedule]: register schedule /Users/asher/study/wx-housework/node_modules/_egg-multipart@2.10.1@egg-multipart/app/schedule/clean_tmpdir.js
 2020-03-01 11:45:01,967 INFO 1247 [egg-schedule]: register schedule /Users/asher/study/wx-housework/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
 2020-03-01 11:45:01,967 INFO 1247 [egg-schedule]: register schedule /Users/asher/study/wx-housework/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2020-03-01 13:34:48,306 INFO 2237 [Timer] /Users/asher/study/wx-housework/node_modules/_egg-multipart@2.10.1@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 53711697ms at 2020-03-02 04:30:00.003
+2020-03-01 13:34:48,306 INFO 2237 [Timer] /Users/asher/study/wx-housework/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 37511694ms at 2020-03-02 00:00:00.000
+2020-03-01 13:34:48,307 INFO 2237 [Timer] /Users/asher/study/wx-housework/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 37512694ms at 2020-03-02 00:00:01.001
+2020-03-01 13:34:48,175 INFO 2242 [egg-schedule]: register schedule /Users/asher/study/wx-housework/node_modules/_egg-multipart@2.10.1@egg-multipart/app/schedule/clean_tmpdir.js
+2020-03-01 13:34:48,175 INFO 2242 [egg-schedule]: register schedule /Users/asher/study/wx-housework/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2020-03-01 13:34:48,175 INFO 2242 [egg-schedule]: register schedule /Users/asher/study/wx-housework/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2020-03-01 15:03:51,633 INFO 2404 [egg-schedule]: register schedule /Users/asher/study/wx-housework/node_modules/_egg-multipart@2.10.1@egg-multipart/app/schedule/clean_tmpdir.js
+2020-03-01 15:03:51,633 INFO 2404 [egg-schedule]: register schedule /Users/asher/study/wx-housework/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2020-03-01 15:03:51,633 INFO 2404 [egg-schedule]: register schedule /Users/asher/study/wx-housework/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2020-03-01 15:18:29,449 INFO 2470 [egg-schedule]: register schedule /Users/asher/study/wx-housework/node_modules/_egg-multipart@2.10.1@egg-multipart/app/schedule/clean_tmpdir.js
+2020-03-01 15:18:29,449 INFO 2470 [egg-schedule]: register schedule /Users/asher/study/wx-housework/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2020-03-01 15:18:29,449 INFO 2470 [egg-schedule]: register schedule /Users/asher/study/wx-housework/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2020-03-01 15:19:45,923 INFO 2490 [egg-schedule]: register schedule /Users/asher/study/wx-housework/node_modules/_egg-multipart@2.10.1@egg-multipart/app/schedule/clean_tmpdir.js
+2020-03-01 15:19:45,923 INFO 2490 [egg-schedule]: register schedule /Users/asher/study/wx-housework/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2020-03-01 15:19:45,923 INFO 2490 [egg-schedule]: register schedule /Users/asher/study/wx-housework/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2020-03-01 15:20:30,697 INFO 2512 [egg-schedule]: register schedule /Users/asher/study/wx-housework/node_modules/_egg-multipart@2.10.1@egg-multipart/app/schedule/clean_tmpdir.js
+2020-03-01 15:20:30,697 INFO 2512 [egg-schedule]: register schedule /Users/asher/study/wx-housework/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2020-03-01 15:20:30,697 INFO 2512 [egg-schedule]: register schedule /Users/asher/study/wx-housework/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js

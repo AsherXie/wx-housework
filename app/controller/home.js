@@ -33,7 +33,6 @@ class HomeController extends Controller {
         //生成一个文件写入 文件流
         const writeStream = fs.createWriteStream(target);
         try {
-            // throw '1111'
             //异步把文件流 写入
             await awaitWriteStream(stream.pipe(writeStream));
         } catch (err) {

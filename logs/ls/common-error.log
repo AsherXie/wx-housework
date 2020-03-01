@@ -333,3 +333,75 @@ name: "ClusterClientNoResponseError"
 pid: 29534
 hostname: AsherdeMacBook-Pro.local
 
+2020-03-01 14:00:10,713 ERROR 2237 nodejs.ClusterClientNoResponseError: client no response in 302218ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/asher/study/wx-housework/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 2237
+hostname: AsherdeMacBook-Pro.local
+
+2020-03-01 14:19:23,412 ERROR 2237 nodejs.ClusterClientNoResponseError: client no response in 1132680ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/asher/study/wx-housework/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 2237
+hostname: AsherdeMacBook-Pro.local
+
+2020-03-01 14:29:26,452 ERROR 2237 nodejs.ClusterClientNoResponseError: client no response in 302987ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/asher/study/wx-housework/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 2237
+hostname: AsherdeMacBook-Pro.local
+
+2020-03-01 14:56:31,484 ERROR 2237 nodejs.ClusterClientNoResponseError: client no response in 1625028ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/asher/study/wx-housework/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 2237
+hostname: AsherdeMacBook-Pro.local
+
+2020-03-01 15:03:56,349 ERROR 2404 [-/127.0.0.1/-/47ms POST /api/uploads] nodejs.Error: non-error thrown: 1111
+    at Object.app.context.onerror (/Users/asher/study/wx-housework/node_modules/_koa-onerror@4.1.0@koa-onerror/index.js:39:24)
+    at onerror (/Users/asher/study/wx-housework/node_modules/_koa@2.11.0@koa/lib/application.js:163:32)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 2404
+hostname: AsherdeMacBook-Pro.local
+
+2020-03-01 15:06:28,225 ERROR 2404 [-/127.0.0.1/-/6ms POST /api/uploads] nodejs.Error: non-error thrown: 1111
+    at Object.app.context.onerror (/Users/asher/study/wx-housework/node_modules/_koa-onerror@4.1.0@koa-onerror/index.js:39:24)
+    at onerror (/Users/asher/study/wx-housework/node_modules/_koa@2.11.0@koa/lib/application.js:163:32)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 2404
+hostname: AsherdeMacBook-Pro.local
+
+2020-03-01 15:13:49,453 ERROR 2404 [-/127.0.0.1/-/3ms POST /api/uploads] nodejs.Error: non-error thrown: 1111
+    at Object.app.context.onerror (/Users/asher/study/wx-housework/node_modules/_koa-onerror@4.1.0@koa-onerror/index.js:39:24)
+    at onerror (/Users/asher/study/wx-housework/node_modules/_koa@2.11.0@koa/lib/application.js:163:32)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 2404
+hostname: AsherdeMacBook-Pro.local
+
+2020-03-01 15:17:10,111 ERROR 2404 [-/127.0.0.1/-/2ms POST /api/uploads] nodejs.Error: non-error thrown: 1111
+    at Object.app.context.onerror (/Users/asher/study/wx-housework/node_modules/_koa-onerror@4.1.0@koa-onerror/index.js:39:24)
+    at onerror (/Users/asher/study/wx-housework/node_modules/_koa@2.11.0@koa/lib/application.js:163:32)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 2404
+hostname: AsherdeMacBook-Pro.local
+
