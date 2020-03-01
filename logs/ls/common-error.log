@@ -1,0 +1,335 @@
+2020-03-01 00:54:23,039 ERROR 29324 [-/127.0.0.1/-/7ms GET /] nodejs.ReferenceError: ctx is not defined
+    at HomeController.index (/Users/asher/study/wx-housework/app/controller/home.js:19:9)
+    at Object.callFn (/Users/asher/study/wx-housework/node_modules/_egg-core@4.17.4@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/asher/study/wx-housework/node_modules/_egg-core@4.17.4@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/asher/study/wx-housework/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/asher/study/wx-housework/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/asher/study/wx-housework/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 29324
+hostname: AsherdeMacBook-Pro.local
+
+2020-03-01 00:54:31,701 ERROR 29326 [-/127.0.0.1/-/8ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find viewEngine for /Users/asher/study/wx-housework/app/view/index/index.html
+    at ContextView.[contextView#render] (/Users/asher/study/wx-housework/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:66:5)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: ""
+expected: true
+operator: "=="
+pid: 29326
+hostname: AsherdeMacBook-Pro.local
+
+2020-03-01 00:57:20,409 ERROR 29353 [-/127.0.0.1/-/9ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "nunjucks"
+    at ContextView.[contextView#getViewEngine] (/Users/asher/study/wx-housework/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/Users/asher/study/wx-housework/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:69:39)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 29353
+hostname: AsherdeMacBook-Pro.local
+
+2020-03-01 01:00:53,275 ERROR 29376 [-/127.0.0.1/-/8ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (/Users/asher/study/wx-housework/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/Users/asher/study/wx-housework/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:69:39)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 29376
+hostname: AsherdeMacBook-Pro.local
+
+2020-03-01 01:00:54,320 ERROR 29376 [-/127.0.0.1/-/1ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (/Users/asher/study/wx-housework/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/Users/asher/study/wx-housework/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:69:39)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 29376
+hostname: AsherdeMacBook-Pro.local
+
+2020-03-01 01:03:48,332 ERROR 29415 [-/127.0.0.1/-/7ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "nunjucks"
+    at ContextView.[contextView#getViewEngine] (/Users/asher/study/wx-housework/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/Users/asher/study/wx-housework/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:69:39)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 29415
+hostname: AsherdeMacBook-Pro.local
+
+2020-03-01 01:03:54,867 ERROR 29415 [-/127.0.0.1/-/1ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "nunjucks"
+    at ContextView.[contextView#getViewEngine] (/Users/asher/study/wx-housework/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/Users/asher/study/wx-housework/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:69:39)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 29415
+hostname: AsherdeMacBook-Pro.local
+
+2020-03-01 01:05:49,122 ERROR 29438 [-/127.0.0.1/-/8ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "nunjucks"
+    at ContextView.[contextView#getViewEngine] (/Users/asher/study/wx-housework/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/Users/asher/study/wx-housework/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:69:39)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 29438
+hostname: AsherdeMacBook-Pro.local
+
+2020-03-01 01:05:50,317 ERROR 29438 [-/127.0.0.1/-/1ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "nunjucks"
+    at ContextView.[contextView#getViewEngine] (/Users/asher/study/wx-housework/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/Users/asher/study/wx-housework/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:69:39)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 29438
+hostname: AsherdeMacBook-Pro.local
+
+2020-03-01 01:05:50,497 ERROR 29438 [-/127.0.0.1/-/0ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "nunjucks"
+    at ContextView.[contextView#getViewEngine] (/Users/asher/study/wx-housework/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/Users/asher/study/wx-housework/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:69:39)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 29438
+hostname: AsherdeMacBook-Pro.local
+
+2020-03-01 01:05:50,651 ERROR 29438 [-/127.0.0.1/-/0ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "nunjucks"
+    at ContextView.[contextView#getViewEngine] (/Users/asher/study/wx-housework/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/Users/asher/study/wx-housework/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:69:39)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 29438
+hostname: AsherdeMacBook-Pro.local
+
+2020-03-01 01:05:50,831 ERROR 29438 [-/127.0.0.1/-/0ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "nunjucks"
+    at ContextView.[contextView#getViewEngine] (/Users/asher/study/wx-housework/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/Users/asher/study/wx-housework/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:69:39)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 29438
+hostname: AsherdeMacBook-Pro.local
+
+2020-03-01 01:05:50,998 ERROR 29438 [-/127.0.0.1/-/1ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "nunjucks"
+    at ContextView.[contextView#getViewEngine] (/Users/asher/study/wx-housework/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/Users/asher/study/wx-housework/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:69:39)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 29438
+hostname: AsherdeMacBook-Pro.local
+
+2020-03-01 01:05:51,124 ERROR 29438 [-/127.0.0.1/-/1ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "nunjucks"
+    at ContextView.[contextView#getViewEngine] (/Users/asher/study/wx-housework/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/Users/asher/study/wx-housework/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:69:39)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 29438
+hostname: AsherdeMacBook-Pro.local
+
+2020-03-01 01:22:35,480 ERROR 29414 nodejs.ClusterClientNoResponseError: client no response in 303687ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/asher/study/wx-housework/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 29414
+hostname: AsherdeMacBook-Pro.local
+
+2020-03-01 01:26:35,851 ERROR 29414 nodejs.ClusterClientNoResponseError: client no response in 200358ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/asher/study/wx-housework/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 29414
+hostname: AsherdeMacBook-Pro.local
+
+2020-03-01 01:27:29,348 ERROR 29473 [-/127.0.0.1/-/9ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "nunjucks"
+    at ContextView.[contextView#getViewEngine] (/Users/asher/study/wx-housework/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/Users/asher/study/wx-housework/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:69:39)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 29473
+hostname: AsherdeMacBook-Pro.local
+
+2020-03-01 01:27:30,795 ERROR 29473 [-/127.0.0.1/-/1ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "nunjucks"
+    at ContextView.[contextView#getViewEngine] (/Users/asher/study/wx-housework/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/Users/asher/study/wx-housework/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:69:39)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 29473
+hostname: AsherdeMacBook-Pro.local
+
+2020-03-01 01:27:31,454 ERROR 29473 [-/127.0.0.1/-/0ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "nunjucks"
+    at ContextView.[contextView#getViewEngine] (/Users/asher/study/wx-housework/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/Users/asher/study/wx-housework/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:69:39)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 29473
+hostname: AsherdeMacBook-Pro.local
+
+2020-03-01 01:27:56,096 ERROR 29478 [-/127.0.0.1/-/10ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "nunjucks"
+    at ContextView.[contextView#getViewEngine] (/Users/asher/study/wx-housework/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/Users/asher/study/wx-housework/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:69:39)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 29478
+hostname: AsherdeMacBook-Pro.local
+
+2020-03-01 01:27:56,948 ERROR 29478 [-/127.0.0.1/-/1ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "nunjucks"
+    at ContextView.[contextView#getViewEngine] (/Users/asher/study/wx-housework/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/Users/asher/study/wx-housework/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:69:39)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 29478
+hostname: AsherdeMacBook-Pro.local
+
+2020-03-01 01:31:04,387 ERROR 29518 [-/127.0.0.1/-/7ms GET /] nodejs.ReferenceError: ctx is not defined
+    at HomeController.index (/Users/asher/study/wx-housework/app/controller/home.js:18:31)
+    at Object.callFn (/Users/asher/study/wx-housework/node_modules/_egg-core@4.17.4@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/asher/study/wx-housework/node_modules/_egg-core@4.17.4@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/asher/study/wx-housework/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/asher/study/wx-housework/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/asher/study/wx-housework/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 29518
+hostname: AsherdeMacBook-Pro.local
+
+2020-03-01 01:33:08,244 ERROR 29527 [-/127.0.0.1/-/10ms GET /] nodejs.EISDIRError: EISDIR: illegal operation on a directory, read
+    at Object.readSync (fs.js:498:3)
+    at tryReadSync (fs.js:332:20)
+    at Object.readFileSync (fs.js:369:19)
+    at NunjucksFileLoader.getSource (/Users/asher/study/wx-housework/node_modules/_nunjucks@3.2.0@nunjucks/src/node-loaders.js:96:15)
+    at NunjucksFileLoader.getSource (/Users/asher/study/wx-housework/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/lib/file_loader.js:26:26)
+    at /Users/asher/study/wx-housework/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:339:29
+    at next (/Users/asher/study/wx-housework/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/Users/asher/study/wx-housework/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/Users/asher/study/wx-housework/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:321:9)
+    at NunjucksEnvironment.render (/Users/asher/study/wx-housework/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:360:10)
+errno: -21
+syscall: "read"
+code: "EISDIR"
+name: "EISDIRError"
+pid: 29527
+hostname: AsherdeMacBook-Pro.local
+
+2020-03-01 01:54:06,630 ERROR 29592 [-/127.0.0.1/-/2ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find dist/index.html from /Users/asher/study/wx-housework/app/view
+    at Map.resolve (/Users/asher/study/wx-housework/node_modules/_egg-view@2.1.2@egg-view/lib/view_manager.js:74:5)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 29592
+hostname: AsherdeMacBook-Pro.local
+
+2020-03-01 01:54:07,841 ERROR 29592 [-/127.0.0.1/-/1ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find dist/index.html from /Users/asher/study/wx-housework/app/view
+    at Map.resolve (/Users/asher/study/wx-housework/node_modules/_egg-view@2.1.2@egg-view/lib/view_manager.js:74:5)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 29592
+hostname: AsherdeMacBook-Pro.local
+
+2020-03-01 02:48:57,361 ERROR 29534 nodejs.ClusterClientNoResponseError: client no response in 2108109ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/asher/study/wx-housework/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 29534
+hostname: AsherdeMacBook-Pro.local
+
+2020-03-01 02:54:05,549 ERROR 29534 nodejs.ClusterClientNoResponseError: client no response in 308182ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/asher/study/wx-housework/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 29534
+hostname: AsherdeMacBook-Pro.local
+
+2020-03-01 11:01:21,869 ERROR 29534 nodejs.ClusterClientNoResponseError: client no response in 29236316ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/asher/study/wx-housework/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 29534
+hostname: AsherdeMacBook-Pro.local
+

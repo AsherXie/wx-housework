@@ -1,0 +1,320 @@
+2020-02-29 17:07:43,725 ERROR 26773 [-/127.0.0.1/-/5ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/asher/study/wx-housework/node_modules/_egg-security@2.7.1@egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/Users/asher/study/wx-housework/node_modules/_egg-security@2.7.1@egg-security/app/extend/context.js:97:13)
+    at csrf (/Users/asher/study/wx-housework/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Users/asher/study/wx-housework/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/asher/study/wx-housework/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/asher/study/wx-housework/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/asher/study/wx-housework/node_modules/_koa-session@5.13.1@koa-session/index.js:41:13)
+    at dispatch (/Users/asher/study/wx-housework/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 26773
+hostname: AsherdeMacBook-Pro.local
+
+2020-02-29 17:09:08,521 ERROR 26788 [-/127.0.0.1/-/5ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/asher/study/wx-housework/node_modules/_egg-security@2.7.1@egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/Users/asher/study/wx-housework/node_modules/_egg-security@2.7.1@egg-security/app/extend/context.js:97:13)
+    at csrf (/Users/asher/study/wx-housework/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Users/asher/study/wx-housework/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/asher/study/wx-housework/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/asher/study/wx-housework/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/asher/study/wx-housework/node_modules/_koa-session@5.13.1@koa-session/index.js:41:13)
+    at dispatch (/Users/asher/study/wx-housework/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 26788
+hostname: AsherdeMacBook-Pro.local
+
+2020-02-29 17:09:09,564 ERROR 26788 [-/127.0.0.1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/asher/study/wx-housework/node_modules/_egg-security@2.7.1@egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/Users/asher/study/wx-housework/node_modules/_egg-security@2.7.1@egg-security/app/extend/context.js:97:13)
+    at csrf (/Users/asher/study/wx-housework/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Users/asher/study/wx-housework/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/asher/study/wx-housework/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/asher/study/wx-housework/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/asher/study/wx-housework/node_modules/_koa-session@5.13.1@koa-session/index.js:41:13)
+    at dispatch (/Users/asher/study/wx-housework/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 26788
+hostname: AsherdeMacBook-Pro.local
+
+2020-02-29 17:09:32,660 ERROR 26798 [-/127.0.0.1/-/5ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/asher/study/wx-housework/node_modules/_egg-security@2.7.1@egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/Users/asher/study/wx-housework/node_modules/_egg-security@2.7.1@egg-security/app/extend/context.js:97:13)
+    at csrf (/Users/asher/study/wx-housework/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Users/asher/study/wx-housework/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/asher/study/wx-housework/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/asher/study/wx-housework/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/asher/study/wx-housework/node_modules/_koa-session@5.13.1@koa-session/index.js:41:13)
+    at dispatch (/Users/asher/study/wx-housework/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 26798
+hostname: AsherdeMacBook-Pro.local
+
+2020-02-29 17:37:22,109 ERROR 27084 [-/127.0.0.1/-/11ms GET /] nodejs.ReferenceError: Cookies is not defined
+    at HomeController.index (/Users/asher/study/wx-housework/app/controller/home.js:18:25)
+    at Object.callFn (/Users/asher/study/wx-housework/node_modules/_egg-core@4.17.4@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/asher/study/wx-housework/node_modules/_egg-core@4.17.4@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/asher/study/wx-housework/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/asher/study/wx-housework/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/asher/study/wx-housework/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 27084
+hostname: AsherdeMacBook-Pro.local
+
+2020-02-29 18:11:17,181 ERROR 27078 nodejs.ClusterClientNoResponseError: client no response in 292340ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/asher/study/wx-housework/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 27078
+hostname: AsherdeMacBook-Pro.local
+
+2020-02-29 18:17:00,412 ERROR 27078 nodejs.ClusterClientNoResponseError: client no response in 303210ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/asher/study/wx-housework/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 27078
+hostname: AsherdeMacBook-Pro.local
+
+2020-02-29 18:19:55,597 ERROR 27078 nodejs.ClusterClientNoResponseError: client no response in 135158ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/asher/study/wx-housework/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 27078
+hostname: AsherdeMacBook-Pro.local
+
+2020-02-29 18:21:12,910 ERROR 27084 [-/127.0.0.1/-/1ms GET /] nodejs.ReferenceError: Cookies is not defined
+    at HomeController.index (/Users/asher/study/wx-housework/app/controller/home.js:18:25)
+    at Object.callFn (/Users/asher/study/wx-housework/node_modules/_egg-core@4.17.4@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/asher/study/wx-housework/node_modules/_egg-core@4.17.4@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/asher/study/wx-housework/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/asher/study/wx-housework/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/asher/study/wx-housework/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 27084
+hostname: AsherdeMacBook-Pro.local
+
+2020-02-29 18:21:21,030 ERROR 27084 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: Cookies is not defined
+    at HomeController.index (/Users/asher/study/wx-housework/app/controller/home.js:18:25)
+    at Object.callFn (/Users/asher/study/wx-housework/node_modules/_egg-core@4.17.4@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/asher/study/wx-housework/node_modules/_egg-core@4.17.4@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/asher/study/wx-housework/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/asher/study/wx-housework/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/asher/study/wx-housework/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 27084
+hostname: AsherdeMacBook-Pro.local
+
+2020-02-29 18:21:22,018 ERROR 27084 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: Cookies is not defined
+    at HomeController.index (/Users/asher/study/wx-housework/app/controller/home.js:18:25)
+    at Object.callFn (/Users/asher/study/wx-housework/node_modules/_egg-core@4.17.4@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/asher/study/wx-housework/node_modules/_egg-core@4.17.4@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/asher/study/wx-housework/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/asher/study/wx-housework/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/asher/study/wx-housework/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 27084
+hostname: AsherdeMacBook-Pro.local
+
+2020-02-29 18:21:23,032 ERROR 27084 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: Cookies is not defined
+    at HomeController.index (/Users/asher/study/wx-housework/app/controller/home.js:18:25)
+    at Object.callFn (/Users/asher/study/wx-housework/node_modules/_egg-core@4.17.4@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/asher/study/wx-housework/node_modules/_egg-core@4.17.4@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/asher/study/wx-housework/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/asher/study/wx-housework/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/asher/study/wx-housework/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 27084
+hostname: AsherdeMacBook-Pro.local
+
+2020-02-29 18:23:43,348 ERROR 27165 [-/127.0.0.1/-/6ms GET /login] nodejs.TypeError: Cannot read property 'csrfToken' of undefined
+    at HomeController.login (/Users/asher/study/wx-housework/app/controller/home.js:47:38)
+    at Object.callFn (/Users/asher/study/wx-housework/node_modules/_egg-core@4.17.4@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/asher/study/wx-housework/node_modules/_egg-core@4.17.4@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/asher/study/wx-housework/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/asher/study/wx-housework/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/asher/study/wx-housework/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 27165
+hostname: AsherdeMacBook-Pro.local
+
+2020-02-29 18:24:07,053 ERROR 27168 [-/127.0.0.1/-/7ms GET /login] nodejs.TypeError: Cannot read property 'csrfToken' of undefined
+    at HomeController.login (/Users/asher/study/wx-housework/app/controller/home.js:48:38)
+    at Object.callFn (/Users/asher/study/wx-housework/node_modules/_egg-core@4.17.4@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/asher/study/wx-housework/node_modules/_egg-core@4.17.4@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/asher/study/wx-housework/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/asher/study/wx-housework/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/asher/study/wx-housework/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 27168
+hostname: AsherdeMacBook-Pro.local
+
+2020-02-29 18:24:21,484 ERROR 27169 [-/127.0.0.1/-/7ms GET /login] nodejs.TypeError: Cannot read property 'csrfToken' of undefined
+    at HomeController.login (/Users/asher/study/wx-housework/app/controller/home.js:48:38)
+    at Object.callFn (/Users/asher/study/wx-housework/node_modules/_egg-core@4.17.4@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/asher/study/wx-housework/node_modules/_egg-core@4.17.4@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/asher/study/wx-housework/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/asher/study/wx-housework/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/asher/study/wx-housework/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 27169
+hostname: AsherdeMacBook-Pro.local
+
+2020-02-29 18:25:55,575 ERROR 27173 [-/127.0.0.1/-/1ms GET /] nodejs.ReferenceError: Cookies is not defined
+    at HomeController.index (/Users/asher/study/wx-housework/app/controller/home.js:18:25)
+    at Object.callFn (/Users/asher/study/wx-housework/node_modules/_egg-core@4.17.4@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/asher/study/wx-housework/node_modules/_egg-core@4.17.4@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/asher/study/wx-housework/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/asher/study/wx-housework/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/asher/study/wx-housework/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 27173
+hostname: AsherdeMacBook-Pro.local
+
+2020-02-29 18:25:56,758 ERROR 27173 [-/127.0.0.1/-/1ms GET /] nodejs.ReferenceError: Cookies is not defined
+    at HomeController.index (/Users/asher/study/wx-housework/app/controller/home.js:18:25)
+    at Object.callFn (/Users/asher/study/wx-housework/node_modules/_egg-core@4.17.4@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/asher/study/wx-housework/node_modules/_egg-core@4.17.4@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/asher/study/wx-housework/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/asher/study/wx-housework/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/asher/study/wx-housework/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 27173
+hostname: AsherdeMacBook-Pro.local
+
+2020-02-29 18:25:56,912 ERROR 27173 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: Cookies is not defined
+    at HomeController.index (/Users/asher/study/wx-housework/app/controller/home.js:18:25)
+    at Object.callFn (/Users/asher/study/wx-housework/node_modules/_egg-core@4.17.4@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/asher/study/wx-housework/node_modules/_egg-core@4.17.4@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/asher/study/wx-housework/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/asher/study/wx-housework/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/asher/study/wx-housework/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 27173
+hostname: AsherdeMacBook-Pro.local
+
+2020-02-29 18:25:57,062 ERROR 27173 [-/127.0.0.1/-/1ms GET /] nodejs.ReferenceError: Cookies is not defined
+    at HomeController.index (/Users/asher/study/wx-housework/app/controller/home.js:18:25)
+    at Object.callFn (/Users/asher/study/wx-housework/node_modules/_egg-core@4.17.4@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/asher/study/wx-housework/node_modules/_egg-core@4.17.4@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/asher/study/wx-housework/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/asher/study/wx-housework/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/asher/study/wx-housework/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/asher/study/wx-housework/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 27173
+hostname: AsherdeMacBook-Pro.local
+
+2020-02-29 20:02:23,129 ERROR 27078 nodejs.ClusterClientNoResponseError: client no response in 305902ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/asher/study/wx-housework/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 27078
+hostname: AsherdeMacBook-Pro.local
+
+2020-02-29 20:05:02,350 ERROR 27078 nodejs.ClusterClientNoResponseError: client no response in 139207ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/asher/study/wx-housework/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 27078
+hostname: AsherdeMacBook-Pro.local
+
+2020-02-29 20:17:59,319 ERROR 27078 nodejs.ClusterClientNoResponseError: client no response in 88552ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/asher/study/wx-housework/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 27078
+hostname: AsherdeMacBook-Pro.local
+
+2020-02-29 20:45:02,803 ERROR 27078 nodejs.ClusterClientNoResponseError: client no response in 303302ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/asher/study/wx-housework/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 27078
+hostname: AsherdeMacBook-Pro.local
+
+2020-02-29 21:21:15,466 ERROR 27078 nodejs.ClusterClientNoResponseError: client no response in 2172656ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/asher/study/wx-housework/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 27078
+hostname: AsherdeMacBook-Pro.local
+

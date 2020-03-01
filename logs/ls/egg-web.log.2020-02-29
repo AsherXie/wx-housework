@@ -1,0 +1,475 @@
+2020-02-29 17:07:39,356 INFO 26773 [egg:logger] init all loggers with options: {"dir":"/Users/asher/study/wx-housework/logs/ls","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ls-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-02-29 17:07:39,380 INFO 26773 [egg-multipart] stream mode enable
+2020-02-29 17:07:39,409 INFO 26773 [egg-static] starting static serve /public/ -> /Users/asher/study/wx-housework/app/public
+2020-02-29 17:07:39,410 INFO 26773 [egg-security] use csrf middleware
+2020-02-29 17:07:39,411 INFO 26773 [egg-security] use methodnoallow middleware
+2020-02-29 17:07:39,411 INFO 26773 [egg-security] use noopen middleware
+2020-02-29 17:07:39,412 INFO 26773 [egg-security] use nosniff middleware
+2020-02-29 17:07:39,412 INFO 26773 [egg-security] use xssProtection middleware
+2020-02-29 17:07:39,412 INFO 26773 [egg-security] use xframe middleware
+2020-02-29 17:07:39,412 INFO 26773 [egg-security] use dta middleware
+2020-02-29 17:07:39,412 INFO 26773 [egg-security] compose 7 middlewares into one security middleware
+2020-02-29 17:07:39,421 INFO 26773 [egg:core] dump config after load, 6ms
+2020-02-29 17:07:39,432 INFO 26773 [egg-watcher:application] watcher start success
+2020-02-29 17:07:39,436 INFO 26773 [egg:core] dump config after ready, 3ms
+2020-02-29 17:07:59,736 INFO 26783 [egg:logger] init all loggers with options: {"dir":"/Users/asher/study/wx-housework/logs/ls","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ls-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-02-29 17:07:59,762 INFO 26783 [egg-multipart] stream mode enable
+2020-02-29 17:07:59,791 INFO 26783 [egg-static] starting static serve /public/ -> /Users/asher/study/wx-housework/app/public
+2020-02-29 17:07:59,793 INFO 26783 [egg-security] use csrf middleware
+2020-02-29 17:07:59,794 INFO 26783 [egg-security] use methodnoallow middleware
+2020-02-29 17:07:59,794 INFO 26783 [egg-security] use noopen middleware
+2020-02-29 17:07:59,794 INFO 26783 [egg-security] use nosniff middleware
+2020-02-29 17:07:59,794 INFO 26783 [egg-security] use xssProtection middleware
+2020-02-29 17:07:59,795 INFO 26783 [egg-security] use xframe middleware
+2020-02-29 17:07:59,795 INFO 26783 [egg-security] use dta middleware
+2020-02-29 17:07:59,795 INFO 26783 [egg-security] compose 7 middlewares into one security middleware
+2020-02-29 17:07:59,802 INFO 26783 [egg:core] dump config after load, 4ms
+2020-02-29 17:07:59,814 INFO 26783 [egg-watcher:application] watcher start success
+2020-02-29 17:07:59,818 INFO 26783 [egg:core] dump config after ready, 3ms
+2020-02-29 17:09:03,212 INFO 26788 [egg:logger] init all loggers with options: {"dir":"/Users/asher/study/wx-housework/logs/ls","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ls-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-02-29 17:09:03,236 INFO 26788 [egg-multipart] stream mode enable
+2020-02-29 17:09:03,265 INFO 26788 [egg-static] starting static serve /public/ -> /Users/asher/study/wx-housework/app/public
+2020-02-29 17:09:03,267 INFO 26788 [egg-security] use csrf middleware
+2020-02-29 17:09:03,267 INFO 26788 [egg-security] use methodnoallow middleware
+2020-02-29 17:09:03,267 INFO 26788 [egg-security] use noopen middleware
+2020-02-29 17:09:03,268 INFO 26788 [egg-security] use nosniff middleware
+2020-02-29 17:09:03,268 INFO 26788 [egg-security] use xssProtection middleware
+2020-02-29 17:09:03,268 INFO 26788 [egg-security] use xframe middleware
+2020-02-29 17:09:03,269 INFO 26788 [egg-security] use dta middleware
+2020-02-29 17:09:03,269 INFO 26788 [egg-security] compose 7 middlewares into one security middleware
+2020-02-29 17:09:03,275 INFO 26788 [egg:core] dump config after load, 4ms
+2020-02-29 17:09:03,287 INFO 26788 [egg-watcher:application] watcher start success
+2020-02-29 17:09:03,292 INFO 26788 [egg:core] dump config after ready, 3ms
+2020-02-29 17:09:31,042 INFO 26798 [egg:logger] init all loggers with options: {"dir":"/Users/asher/study/wx-housework/logs/ls","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ls-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-02-29 17:09:31,067 INFO 26798 [egg-multipart] stream mode enable
+2020-02-29 17:09:31,095 INFO 26798 [egg-static] starting static serve /public/ -> /Users/asher/study/wx-housework/app/public
+2020-02-29 17:09:31,097 INFO 26798 [egg-security] use csrf middleware
+2020-02-29 17:09:31,098 INFO 26798 [egg-security] use methodnoallow middleware
+2020-02-29 17:09:31,098 INFO 26798 [egg-security] use noopen middleware
+2020-02-29 17:09:31,098 INFO 26798 [egg-security] use nosniff middleware
+2020-02-29 17:09:31,098 INFO 26798 [egg-security] use xssProtection middleware
+2020-02-29 17:09:31,099 INFO 26798 [egg-security] use xframe middleware
+2020-02-29 17:09:31,099 INFO 26798 [egg-security] use dta middleware
+2020-02-29 17:09:31,099 INFO 26798 [egg-security] compose 7 middlewares into one security middleware
+2020-02-29 17:09:31,106 INFO 26798 [egg:core] dump config after load, 4ms
+2020-02-29 17:09:31,121 INFO 26798 [egg-watcher:application] watcher start success
+2020-02-29 17:09:31,125 INFO 26798 [egg:core] dump config after ready, 3ms
+2020-02-29 17:09:39,402 INFO 26804 [egg:logger] init all loggers with options: {"dir":"/Users/asher/study/wx-housework/logs/ls","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ls-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-02-29 17:09:39,426 INFO 26804 [egg-multipart] stream mode enable
+2020-02-29 17:09:39,455 INFO 26804 [egg-static] starting static serve /public/ -> /Users/asher/study/wx-housework/app/public
+2020-02-29 17:09:39,457 INFO 26804 [egg-security] use csrf middleware
+2020-02-29 17:09:39,458 INFO 26804 [egg-security] use methodnoallow middleware
+2020-02-29 17:09:39,458 INFO 26804 [egg-security] use noopen middleware
+2020-02-29 17:09:39,459 INFO 26804 [egg-security] use nosniff middleware
+2020-02-29 17:09:39,459 INFO 26804 [egg-security] use xssProtection middleware
+2020-02-29 17:09:39,459 INFO 26804 [egg-security] use xframe middleware
+2020-02-29 17:09:39,459 INFO 26804 [egg-security] use dta middleware
+2020-02-29 17:09:39,459 INFO 26804 [egg-security] compose 7 middlewares into one security middleware
+2020-02-29 17:09:39,467 INFO 26804 [egg:core] dump config after load, 5ms
+2020-02-29 17:09:39,480 INFO 26804 [egg-watcher:application] watcher start success
+2020-02-29 17:09:39,484 INFO 26804 [egg:core] dump config after ready, 3ms
+2020-02-29 17:09:57,395 INFO 26808 [egg:logger] init all loggers with options: {"dir":"/Users/asher/study/wx-housework/logs/ls","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ls-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-02-29 17:09:57,421 INFO 26808 [egg-multipart] stream mode enable
+2020-02-29 17:09:57,453 INFO 26808 [egg-static] starting static serve /public/ -> /Users/asher/study/wx-housework/app/public
+2020-02-29 17:09:57,455 INFO 26808 [egg-security] use csrf middleware
+2020-02-29 17:09:57,456 INFO 26808 [egg-security] use methodnoallow middleware
+2020-02-29 17:09:57,456 INFO 26808 [egg-security] use noopen middleware
+2020-02-29 17:09:57,456 INFO 26808 [egg-security] use nosniff middleware
+2020-02-29 17:09:57,457 INFO 26808 [egg-security] use xssProtection middleware
+2020-02-29 17:09:57,457 INFO 26808 [egg-security] use xframe middleware
+2020-02-29 17:09:57,457 INFO 26808 [egg-security] use dta middleware
+2020-02-29 17:09:57,457 INFO 26808 [egg-security] compose 7 middlewares into one security middleware
+2020-02-29 17:09:57,468 INFO 26808 [egg:core] dump config after load, 8ms
+2020-02-29 17:09:57,478 INFO 26808 [egg-watcher:application] watcher start success
+2020-02-29 17:09:57,482 INFO 26808 [egg:core] dump config after ready, 3ms
+2020-02-29 17:09:57,938 INFO 26812 [egg:logger] init all loggers with options: {"dir":"/Users/asher/study/wx-housework/logs/ls","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ls-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-02-29 17:09:57,963 INFO 26812 [egg-multipart] stream mode enable
+2020-02-29 17:09:57,995 INFO 26812 [egg-static] starting static serve /public/ -> /Users/asher/study/wx-housework/app/public
+2020-02-29 17:09:57,998 INFO 26812 [egg-security] use csrf middleware
+2020-02-29 17:09:57,998 INFO 26812 [egg-security] use methodnoallow middleware
+2020-02-29 17:09:57,998 INFO 26812 [egg-security] use noopen middleware
+2020-02-29 17:09:57,999 INFO 26812 [egg-security] use nosniff middleware
+2020-02-29 17:09:57,999 INFO 26812 [egg-security] use xssProtection middleware
+2020-02-29 17:09:57,999 INFO 26812 [egg-security] use xframe middleware
+2020-02-29 17:09:58,000 INFO 26812 [egg-security] use dta middleware
+2020-02-29 17:09:58,000 INFO 26812 [egg-security] compose 7 middlewares into one security middleware
+2020-02-29 17:09:58,007 INFO 26812 [egg:core] dump config after load, 5ms
+2020-02-29 17:09:58,020 INFO 26812 [egg-watcher:application] watcher start success
+2020-02-29 17:09:58,025 INFO 26812 [egg:core] dump config after ready, 3ms
+2020-02-29 17:10:35,115 INFO 26817 [egg:logger] init all loggers with options: {"dir":"/Users/asher/study/wx-housework/logs/ls","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ls-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-02-29 17:10:35,139 INFO 26817 [egg-multipart] stream mode enable
+2020-02-29 17:10:35,168 INFO 26817 [egg-static] starting static serve /public/ -> /Users/asher/study/wx-housework/app/public
+2020-02-29 17:10:35,170 INFO 26817 [egg-security] use csrf middleware
+2020-02-29 17:10:35,171 INFO 26817 [egg-security] use methodnoallow middleware
+2020-02-29 17:10:35,171 INFO 26817 [egg-security] use noopen middleware
+2020-02-29 17:10:35,172 INFO 26817 [egg-security] use nosniff middleware
+2020-02-29 17:10:35,172 INFO 26817 [egg-security] use xssProtection middleware
+2020-02-29 17:10:35,172 INFO 26817 [egg-security] use xframe middleware
+2020-02-29 17:10:35,173 INFO 26817 [egg-security] use dta middleware
+2020-02-29 17:10:35,173 INFO 26817 [egg-security] compose 7 middlewares into one security middleware
+2020-02-29 17:10:35,182 INFO 26817 [egg:core] dump config after load, 7ms
+2020-02-29 17:10:35,192 INFO 26817 [egg-watcher:application] watcher start success
+2020-02-29 17:10:35,196 INFO 26817 [egg:core] dump config after ready, 3ms
+2020-02-29 17:21:47,712 INFO 26937 [egg:logger] init all loggers with options: {"dir":"/Users/asher/study/wx-housework/logs/ls","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ls-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-02-29 17:21:47,762 INFO 26937 [egg-multipart] stream mode enable
+2020-02-29 17:21:47,825 INFO 26937 [egg-static] starting static serve /public/ -> /Users/asher/study/wx-housework/app/public
+2020-02-29 17:21:47,829 INFO 26937 [egg-security] use csrf middleware
+2020-02-29 17:21:47,830 INFO 26937 [egg-security] use methodnoallow middleware
+2020-02-29 17:21:47,830 INFO 26937 [egg-security] use noopen middleware
+2020-02-29 17:21:47,831 INFO 26937 [egg-security] use nosniff middleware
+2020-02-29 17:21:47,832 INFO 26937 [egg-security] use xssProtection middleware
+2020-02-29 17:21:47,832 INFO 26937 [egg-security] use xframe middleware
+2020-02-29 17:21:47,832 INFO 26937 [egg-security] use dta middleware
+2020-02-29 17:21:47,833 INFO 26937 [egg-security] compose 7 middlewares into one security middleware
+2020-02-29 17:21:47,848 INFO 26937 [egg:core] dump config after load, 7ms
+2020-02-29 17:21:47,866 INFO 26937 [egg-watcher:application] watcher start success
+2020-02-29 17:21:47,874 INFO 26937 [egg:core] dump config after ready, 5ms
+2020-02-29 17:21:55,110 INFO 26948 [egg:logger] init all loggers with options: {"dir":"/Users/asher/study/wx-housework/logs/ls","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ls-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-02-29 17:21:55,156 INFO 26948 [egg-multipart] stream mode enable
+2020-02-29 17:21:55,218 INFO 26948 [egg-static] starting static serve /public/ -> /Users/asher/study/wx-housework/app/public
+2020-02-29 17:21:55,222 INFO 26948 [egg-security] use csrf middleware
+2020-02-29 17:21:55,223 INFO 26948 [egg-security] use methodnoallow middleware
+2020-02-29 17:21:55,223 INFO 26948 [egg-security] use noopen middleware
+2020-02-29 17:21:55,224 INFO 26948 [egg-security] use nosniff middleware
+2020-02-29 17:21:55,225 INFO 26948 [egg-security] use xssProtection middleware
+2020-02-29 17:21:55,225 INFO 26948 [egg-security] use xframe middleware
+2020-02-29 17:21:55,225 INFO 26948 [egg-security] use dta middleware
+2020-02-29 17:21:55,225 INFO 26948 [egg-security] compose 7 middlewares into one security middleware
+2020-02-29 17:21:55,240 INFO 26948 [egg:core] dump config after load, 7ms
+2020-02-29 17:21:55,261 INFO 26948 [egg-watcher:application] watcher start success
+2020-02-29 17:21:55,269 INFO 26948 [egg:core] dump config after ready, 5ms
+2020-02-29 17:36:07,203 INFO 27073 [egg:logger] init all loggers with options: {"dir":"/Users/asher/study/wx-housework/logs/ls","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ls-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-02-29 17:36:07,254 INFO 27073 [egg-multipart] stream mode enable
+2020-02-29 17:36:07,363 INFO 27073 [egg-static] starting static serve /public/ -> /Users/asher/study/wx-housework/app/public
+2020-02-29 17:36:07,368 INFO 27073 [egg-security] use csrf middleware
+2020-02-29 17:36:07,370 INFO 27073 [egg-security] use methodnoallow middleware
+2020-02-29 17:36:07,371 INFO 27073 [egg-security] use noopen middleware
+2020-02-29 17:36:07,372 INFO 27073 [egg-security] use nosniff middleware
+2020-02-29 17:36:07,373 INFO 27073 [egg-security] use xssProtection middleware
+2020-02-29 17:36:07,375 INFO 27073 [egg-security] use xframe middleware
+2020-02-29 17:36:07,375 INFO 27073 [egg-security] use dta middleware
+2020-02-29 17:36:07,375 INFO 27073 [egg-security] compose 7 middlewares into one security middleware
+2020-02-29 17:36:07,396 INFO 27073 [egg:core] dump config after load, 9ms
+2020-02-29 17:36:07,414 INFO 27073 [egg-watcher:application] watcher start success
+2020-02-29 17:36:07,422 INFO 27073 [egg:core] dump config after ready, 5ms
+2020-02-29 17:36:28,221 INFO 27079 [egg:logger] init all loggers with options: {"dir":"/Users/asher/study/wx-housework/logs/ls","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ls-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-02-29 17:36:28,268 INFO 27079 [egg-multipart] stream mode enable
+2020-02-29 17:36:28,321 INFO 27079 [egg-static] starting static serve /public/ -> /Users/asher/study/wx-housework/app/public
+2020-02-29 17:36:28,325 INFO 27079 [egg-security] use csrf middleware
+2020-02-29 17:36:28,331 INFO 27079 [egg-security] use methodnoallow middleware
+2020-02-29 17:36:28,331 INFO 27079 [egg-security] use noopen middleware
+2020-02-29 17:36:28,332 INFO 27079 [egg-security] use nosniff middleware
+2020-02-29 17:36:28,333 INFO 27079 [egg-security] use xssProtection middleware
+2020-02-29 17:36:28,333 INFO 27079 [egg-security] use xframe middleware
+2020-02-29 17:36:28,333 INFO 27079 [egg-security] use dta middleware
+2020-02-29 17:36:28,334 INFO 27079 [egg-security] compose 7 middlewares into one security middleware
+2020-02-29 17:36:28,348 INFO 27079 [egg:core] dump config after load, 8ms
+2020-02-29 17:36:28,370 INFO 27079 [egg-watcher:application] watcher start success
+2020-02-29 17:36:28,378 INFO 27079 [egg:core] dump config after ready, 6ms
+2020-02-29 17:37:17,146 INFO 27084 [egg:logger] init all loggers with options: {"dir":"/Users/asher/study/wx-housework/logs/ls","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ls-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-02-29 17:37:17,196 INFO 27084 [egg-multipart] stream mode enable
+2020-02-29 17:37:17,261 INFO 27084 [egg-static] starting static serve /public/ -> /Users/asher/study/wx-housework/app/public
+2020-02-29 17:37:17,265 INFO 27084 [egg-security] use csrf middleware
+2020-02-29 17:37:17,266 INFO 27084 [egg-security] use methodnoallow middleware
+2020-02-29 17:37:17,267 INFO 27084 [egg-security] use noopen middleware
+2020-02-29 17:37:17,267 INFO 27084 [egg-security] use nosniff middleware
+2020-02-29 17:37:17,268 INFO 27084 [egg-security] use xssProtection middleware
+2020-02-29 17:37:17,268 INFO 27084 [egg-security] use xframe middleware
+2020-02-29 17:37:17,269 INFO 27084 [egg-security] use dta middleware
+2020-02-29 17:37:17,269 INFO 27084 [egg-security] compose 7 middlewares into one security middleware
+2020-02-29 17:37:17,284 INFO 27084 [egg:core] dump config after load, 8ms
+2020-02-29 17:37:17,302 INFO 27084 [egg-watcher:application] watcher start success
+2020-02-29 17:37:17,311 INFO 27084 [egg:core] dump config after ready, 6ms
+2020-02-29 18:11:17,181 WARN 27084 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-02-29 18:17:00,413 WARN 27084 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-02-29 18:17:00,413 WARN 27084 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-02-29 18:19:55,597 WARN 27084 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-02-29 18:23:18,548 INFO 27162 [egg:logger] init all loggers with options: {"dir":"/Users/asher/study/wx-housework/logs/ls","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ls-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-02-29 18:23:18,572 INFO 27162 [egg-multipart] stream mode enable
+2020-02-29 18:23:18,600 INFO 27162 [egg-static] starting static serve /public/ -> /Users/asher/study/wx-housework/app/public
+2020-02-29 18:23:18,602 INFO 27162 [egg-security] use csrf middleware
+2020-02-29 18:23:18,602 INFO 27162 [egg-security] use methodnoallow middleware
+2020-02-29 18:23:18,602 INFO 27162 [egg-security] use noopen middleware
+2020-02-29 18:23:18,603 INFO 27162 [egg-security] use nosniff middleware
+2020-02-29 18:23:18,603 INFO 27162 [egg-security] use xssProtection middleware
+2020-02-29 18:23:18,603 INFO 27162 [egg-security] use xframe middleware
+2020-02-29 18:23:18,604 INFO 27162 [egg-security] use dta middleware
+2020-02-29 18:23:18,604 INFO 27162 [egg-security] compose 7 middlewares into one security middleware
+2020-02-29 18:23:18,611 INFO 27162 [egg:core] dump config after load, 4ms
+2020-02-29 18:23:18,623 INFO 27162 [egg-watcher:application] watcher start success
+2020-02-29 18:23:18,628 INFO 27162 [egg:core] dump config after ready, 3ms
+2020-02-29 18:23:36,596 INFO 27165 [egg:logger] init all loggers with options: {"dir":"/Users/asher/study/wx-housework/logs/ls","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ls-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-02-29 18:23:36,621 INFO 27165 [egg-multipart] stream mode enable
+2020-02-29 18:23:36,650 INFO 27165 [egg-static] starting static serve /public/ -> /Users/asher/study/wx-housework/app/public
+2020-02-29 18:23:36,652 INFO 27165 [egg-security] use csrf middleware
+2020-02-29 18:23:36,652 INFO 27165 [egg-security] use methodnoallow middleware
+2020-02-29 18:23:36,652 INFO 27165 [egg-security] use noopen middleware
+2020-02-29 18:23:36,653 INFO 27165 [egg-security] use nosniff middleware
+2020-02-29 18:23:36,653 INFO 27165 [egg-security] use xssProtection middleware
+2020-02-29 18:23:36,653 INFO 27165 [egg-security] use xframe middleware
+2020-02-29 18:23:36,654 INFO 27165 [egg-security] use dta middleware
+2020-02-29 18:23:36,654 INFO 27165 [egg-security] compose 7 middlewares into one security middleware
+2020-02-29 18:23:36,661 INFO 27165 [egg:core] dump config after load, 4ms
+2020-02-29 18:23:36,673 INFO 27165 [egg-watcher:application] watcher start success
+2020-02-29 18:23:36,677 INFO 27165 [egg:core] dump config after ready, 3ms
+2020-02-29 18:24:03,035 INFO 27168 [egg:logger] init all loggers with options: {"dir":"/Users/asher/study/wx-housework/logs/ls","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ls-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-02-29 18:24:03,059 INFO 27168 [egg-multipart] stream mode enable
+2020-02-29 18:24:03,089 INFO 27168 [egg-static] starting static serve /public/ -> /Users/asher/study/wx-housework/app/public
+2020-02-29 18:24:03,091 INFO 27168 [egg-security] use csrf middleware
+2020-02-29 18:24:03,092 INFO 27168 [egg-security] use methodnoallow middleware
+2020-02-29 18:24:03,092 INFO 27168 [egg-security] use noopen middleware
+2020-02-29 18:24:03,092 INFO 27168 [egg-security] use nosniff middleware
+2020-02-29 18:24:03,093 INFO 27168 [egg-security] use xssProtection middleware
+2020-02-29 18:24:03,093 INFO 27168 [egg-security] use xframe middleware
+2020-02-29 18:24:03,093 INFO 27168 [egg-security] use dta middleware
+2020-02-29 18:24:03,093 INFO 27168 [egg-security] compose 7 middlewares into one security middleware
+2020-02-29 18:24:03,101 INFO 27168 [egg:core] dump config after load, 4ms
+2020-02-29 18:24:03,112 INFO 27168 [egg-watcher:application] watcher start success
+2020-02-29 18:24:03,117 INFO 27168 [egg:core] dump config after ready, 3ms
+2020-02-29 18:24:14,982 INFO 27169 [egg:logger] init all loggers with options: {"dir":"/Users/asher/study/wx-housework/logs/ls","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ls-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-02-29 18:24:15,008 INFO 27169 [egg-multipart] stream mode enable
+2020-02-29 18:24:15,039 INFO 27169 [egg-static] starting static serve /public/ -> /Users/asher/study/wx-housework/app/public
+2020-02-29 18:24:15,045 INFO 27169 [egg-security] use csrf middleware
+2020-02-29 18:24:15,046 INFO 27169 [egg-security] use methodnoallow middleware
+2020-02-29 18:24:15,046 INFO 27169 [egg-security] use noopen middleware
+2020-02-29 18:24:15,046 INFO 27169 [egg-security] use nosniff middleware
+2020-02-29 18:24:15,046 INFO 27169 [egg-security] use xssProtection middleware
+2020-02-29 18:24:15,047 INFO 27169 [egg-security] use xframe middleware
+2020-02-29 18:24:15,047 INFO 27169 [egg-security] use dta middleware
+2020-02-29 18:24:15,047 INFO 27169 [egg-security] compose 7 middlewares into one security middleware
+2020-02-29 18:24:15,055 INFO 27169 [egg:core] dump config after load, 4ms
+2020-02-29 18:24:15,065 INFO 27169 [egg-watcher:application] watcher start success
+2020-02-29 18:24:15,069 INFO 27169 [egg:core] dump config after ready, 3ms
+2020-02-29 18:25:05,538 INFO 27172 [egg:logger] init all loggers with options: {"dir":"/Users/asher/study/wx-housework/logs/ls","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ls-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-02-29 18:25:05,564 INFO 27172 [egg-multipart] stream mode enable
+2020-02-29 18:25:05,595 INFO 27172 [egg-static] starting static serve /public/ -> /Users/asher/study/wx-housework/app/public
+2020-02-29 18:25:05,597 INFO 27172 [egg-security] use csrf middleware
+2020-02-29 18:25:05,597 INFO 27172 [egg-security] use methodnoallow middleware
+2020-02-29 18:25:05,598 INFO 27172 [egg-security] use noopen middleware
+2020-02-29 18:25:05,598 INFO 27172 [egg-security] use nosniff middleware
+2020-02-29 18:25:05,598 INFO 27172 [egg-security] use xssProtection middleware
+2020-02-29 18:25:05,599 INFO 27172 [egg-security] use xframe middleware
+2020-02-29 18:25:05,599 INFO 27172 [egg-security] use dta middleware
+2020-02-29 18:25:05,599 INFO 27172 [egg-security] compose 7 middlewares into one security middleware
+2020-02-29 18:25:05,608 INFO 27172 [egg:core] dump config after load, 4ms
+2020-02-29 18:25:05,621 INFO 27172 [egg-watcher:application] watcher start success
+2020-02-29 18:25:05,625 INFO 27172 [egg:core] dump config after ready, 3ms
+2020-02-29 18:25:10,866 INFO 27173 [egg:logger] init all loggers with options: {"dir":"/Users/asher/study/wx-housework/logs/ls","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ls-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-02-29 18:25:10,893 INFO 27173 [egg-multipart] stream mode enable
+2020-02-29 18:25:10,925 INFO 27173 [egg-static] starting static serve /public/ -> /Users/asher/study/wx-housework/app/public
+2020-02-29 18:25:10,927 INFO 27173 [egg-security] use csrf middleware
+2020-02-29 18:25:10,927 INFO 27173 [egg-security] use methodnoallow middleware
+2020-02-29 18:25:10,928 INFO 27173 [egg-security] use noopen middleware
+2020-02-29 18:25:10,928 INFO 27173 [egg-security] use nosniff middleware
+2020-02-29 18:25:10,928 INFO 27173 [egg-security] use xssProtection middleware
+2020-02-29 18:25:10,929 INFO 27173 [egg-security] use xframe middleware
+2020-02-29 18:25:10,929 INFO 27173 [egg-security] use dta middleware
+2020-02-29 18:25:10,929 INFO 27173 [egg-security] compose 7 middlewares into one security middleware
+2020-02-29 18:25:10,937 INFO 27173 [egg:core] dump config after load, 4ms
+2020-02-29 18:25:10,951 INFO 27173 [egg-watcher:application] watcher start success
+2020-02-29 18:25:10,956 INFO 27173 [egg:core] dump config after ready, 3ms
+2020-02-29 18:26:09,277 INFO 27174 [egg:logger] init all loggers with options: {"dir":"/Users/asher/study/wx-housework/logs/ls","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ls-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-02-29 18:26:09,301 INFO 27174 [egg-multipart] stream mode enable
+2020-02-29 18:26:09,332 INFO 27174 [egg-static] starting static serve /public/ -> /Users/asher/study/wx-housework/app/public
+2020-02-29 18:26:09,335 INFO 27174 [egg-security] use csrf middleware
+2020-02-29 18:26:09,335 INFO 27174 [egg-security] use methodnoallow middleware
+2020-02-29 18:26:09,335 INFO 27174 [egg-security] use noopen middleware
+2020-02-29 18:26:09,336 INFO 27174 [egg-security] use nosniff middleware
+2020-02-29 18:26:09,336 INFO 27174 [egg-security] use xssProtection middleware
+2020-02-29 18:26:09,336 INFO 27174 [egg-security] use xframe middleware
+2020-02-29 18:26:09,337 INFO 27174 [egg-security] use dta middleware
+2020-02-29 18:26:09,337 INFO 27174 [egg-security] compose 7 middlewares into one security middleware
+2020-02-29 18:26:09,345 INFO 27174 [egg:core] dump config after load, 4ms
+2020-02-29 18:26:09,358 INFO 27174 [egg-watcher:application] watcher start success
+2020-02-29 18:26:09,363 INFO 27174 [egg:core] dump config after ready, 3ms
+2020-02-29 18:29:32,249 INFO 27187 [egg:logger] init all loggers with options: {"dir":"/Users/asher/study/wx-housework/logs/ls","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ls-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-02-29 18:29:32,275 INFO 27187 [egg-multipart] stream mode enable
+2020-02-29 18:29:32,306 INFO 27187 [egg-static] starting static serve /public/ -> /Users/asher/study/wx-housework/app/public
+2020-02-29 18:29:32,309 INFO 27187 [egg-security] use csrf middleware
+2020-02-29 18:29:32,309 INFO 27187 [egg-security] use methodnoallow middleware
+2020-02-29 18:29:32,309 INFO 27187 [egg-security] use noopen middleware
+2020-02-29 18:29:32,310 INFO 27187 [egg-security] use nosniff middleware
+2020-02-29 18:29:32,310 INFO 27187 [egg-security] use xssProtection middleware
+2020-02-29 18:29:32,310 INFO 27187 [egg-security] use xframe middleware
+2020-02-29 18:29:32,311 INFO 27187 [egg-security] use dta middleware
+2020-02-29 18:29:32,311 INFO 27187 [egg-security] compose 7 middlewares into one security middleware
+2020-02-29 18:29:32,322 INFO 27187 [egg:core] dump config after load, 4ms
+2020-02-29 18:29:32,332 INFO 27187 [egg-watcher:application] watcher start success
+2020-02-29 18:29:32,336 INFO 27187 [egg:core] dump config after ready, 3ms
+2020-02-29 18:29:52,379 INFO 27189 [egg:logger] init all loggers with options: {"dir":"/Users/asher/study/wx-housework/logs/ls","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ls-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-02-29 18:29:52,404 INFO 27189 [egg-multipart] stream mode enable
+2020-02-29 18:29:52,432 INFO 27189 [egg-static] starting static serve /public/ -> /Users/asher/study/wx-housework/app/public
+2020-02-29 18:29:52,434 INFO 27189 [egg-security] use csrf middleware
+2020-02-29 18:29:52,434 INFO 27189 [egg-security] use methodnoallow middleware
+2020-02-29 18:29:52,435 INFO 27189 [egg-security] use noopen middleware
+2020-02-29 18:29:52,435 INFO 27189 [egg-security] use nosniff middleware
+2020-02-29 18:29:52,435 INFO 27189 [egg-security] use xssProtection middleware
+2020-02-29 18:29:52,436 INFO 27189 [egg-security] use xframe middleware
+2020-02-29 18:29:52,436 INFO 27189 [egg-security] use dta middleware
+2020-02-29 18:29:52,436 INFO 27189 [egg-security] compose 7 middlewares into one security middleware
+2020-02-29 18:29:52,447 INFO 27189 [egg:core] dump config after load, 7ms
+2020-02-29 18:29:52,456 INFO 27189 [egg-watcher:application] watcher start success
+2020-02-29 18:29:52,461 INFO 27189 [egg:core] dump config after ready, 3ms
+2020-02-29 18:29:56,433 INFO 27190 [egg:logger] init all loggers with options: {"dir":"/Users/asher/study/wx-housework/logs/ls","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ls-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-02-29 18:29:56,457 INFO 27190 [egg-multipart] stream mode enable
+2020-02-29 18:29:56,484 INFO 27190 [egg-static] starting static serve /public/ -> /Users/asher/study/wx-housework/app/public
+2020-02-29 18:29:56,486 INFO 27190 [egg-security] use csrf middleware
+2020-02-29 18:29:56,486 INFO 27190 [egg-security] use methodnoallow middleware
+2020-02-29 18:29:56,487 INFO 27190 [egg-security] use noopen middleware
+2020-02-29 18:29:56,487 INFO 27190 [egg-security] use nosniff middleware
+2020-02-29 18:29:56,487 INFO 27190 [egg-security] use xssProtection middleware
+2020-02-29 18:29:56,488 INFO 27190 [egg-security] use xframe middleware
+2020-02-29 18:29:56,488 INFO 27190 [egg-security] use dta middleware
+2020-02-29 18:29:56,488 INFO 27190 [egg-security] compose 7 middlewares into one security middleware
+2020-02-29 18:29:56,495 INFO 27190 [egg:core] dump config after load, 4ms
+2020-02-29 18:29:56,507 INFO 27190 [egg-watcher:application] watcher start success
+2020-02-29 18:29:56,511 INFO 27190 [egg:core] dump config after ready, 2ms
+2020-02-29 20:02:23,134 WARN 27190 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-02-29 20:05:02,350 WARN 27190 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-02-29 20:17:59,319 WARN 27190 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-02-29 20:45:02,805 WARN 27190 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-02-29 20:45:02,806 WARN 27190 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-02-29 21:21:15,466 WARN 27190 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-02-29 22:08:25,274 INFO 28322 [egg:logger] init all loggers with options: {"dir":"/Users/asher/study/wx-housework/logs/ls","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ls-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-02-29 22:08:25,304 INFO 28322 [egg-multipart] stream mode enable
+2020-02-29 22:08:25,371 INFO 28322 [egg-static] starting static serve /public/ -> /Users/asher/study/wx-housework/app/public
+2020-02-29 22:08:25,374 INFO 28322 [egg-security] use csrf middleware
+2020-02-29 22:08:25,375 INFO 28322 [egg-security] use methodnoallow middleware
+2020-02-29 22:08:25,375 INFO 28322 [egg-security] use noopen middleware
+2020-02-29 22:08:25,376 INFO 28322 [egg-security] use nosniff middleware
+2020-02-29 22:08:25,377 INFO 28322 [egg-security] use xssProtection middleware
+2020-02-29 22:08:25,377 INFO 28322 [egg-security] use xframe middleware
+2020-02-29 22:08:25,378 INFO 28322 [egg-security] use dta middleware
+2020-02-29 22:08:25,378 INFO 28322 [egg-security] compose 7 middlewares into one security middleware
+2020-02-29 22:08:25,388 INFO 28322 [egg:core] dump config after load, 5ms
+2020-02-29 22:08:25,398 INFO 28322 [egg-watcher:application] watcher start success
+2020-02-29 22:08:25,403 INFO 28322 [egg:core] dump config after ready, 3ms
+2020-02-29 22:20:36,262 INFO 28434 [egg:logger] init all loggers with options: {"dir":"/Users/asher/study/wx-housework/logs/ls","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ls-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-02-29 22:20:36,291 INFO 28434 [egg-multipart] stream mode enable
+2020-02-29 22:20:36,347 INFO 28434 [egg-static] starting static serve /public/ -> /Users/asher/study/wx-housework/app/public
+2020-02-29 22:20:36,349 INFO 28434 [egg-security] use csrf middleware
+2020-02-29 22:20:36,353 INFO 28434 [egg-security] use methodnoallow middleware
+2020-02-29 22:20:36,354 INFO 28434 [egg-security] use noopen middleware
+2020-02-29 22:20:36,354 INFO 28434 [egg-security] use nosniff middleware
+2020-02-29 22:20:36,355 INFO 28434 [egg-security] use xssProtection middleware
+2020-02-29 22:20:36,356 INFO 28434 [egg-security] use xframe middleware
+2020-02-29 22:20:36,357 INFO 28434 [egg-security] use dta middleware
+2020-02-29 22:20:36,357 INFO 28434 [egg-security] compose 7 middlewares into one security middleware
+2020-02-29 22:20:36,368 INFO 28434 [egg:core] dump config after load, 5ms
+2020-02-29 22:20:36,377 INFO 28434 [egg-watcher:application] watcher start success
+2020-02-29 22:20:36,382 INFO 28434 [egg:core] dump config after ready, 3ms
+2020-02-29 22:20:38,290 INFO 28435 [egg:logger] init all loggers with options: {"dir":"/Users/asher/study/wx-housework/logs/ls","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ls-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-02-29 22:20:38,313 INFO 28435 [egg-multipart] stream mode enable
+2020-02-29 22:20:38,343 INFO 28435 [egg-static] starting static serve /public/ -> /Users/asher/study/wx-housework/app/public
+2020-02-29 22:20:38,345 INFO 28435 [egg-security] use csrf middleware
+2020-02-29 22:20:38,345 INFO 28435 [egg-security] use methodnoallow middleware
+2020-02-29 22:20:38,346 INFO 28435 [egg-security] use noopen middleware
+2020-02-29 22:20:38,346 INFO 28435 [egg-security] use nosniff middleware
+2020-02-29 22:20:38,346 INFO 28435 [egg-security] use xssProtection middleware
+2020-02-29 22:20:38,347 INFO 28435 [egg-security] use xframe middleware
+2020-02-29 22:20:38,347 INFO 28435 [egg-security] use dta middleware
+2020-02-29 22:20:38,347 INFO 28435 [egg-security] compose 7 middlewares into one security middleware
+2020-02-29 22:20:38,355 INFO 28435 [egg:core] dump config after load, 4ms
+2020-02-29 22:20:38,367 INFO 28435 [egg-watcher:application] watcher start success
+2020-02-29 22:20:38,372 INFO 28435 [egg:core] dump config after ready, 3ms
+2020-02-29 22:36:52,035 INFO 28529 [egg:logger] init all loggers with options: {"dir":"/Users/asher/study/wx-housework/logs/ls","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ls-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-02-29 22:36:52,064 INFO 28529 [egg-multipart] stream mode enable
+2020-02-29 22:36:52,123 INFO 28529 [egg-static] starting static serve /public/ -> /Users/asher/study/wx-housework/app/public
+2020-02-29 22:36:52,126 INFO 28529 [egg-security] use csrf middleware
+2020-02-29 22:36:52,127 INFO 28529 [egg-security] use methodnoallow middleware
+2020-02-29 22:36:52,128 INFO 28529 [egg-security] use noopen middleware
+2020-02-29 22:36:52,129 INFO 28529 [egg-security] use nosniff middleware
+2020-02-29 22:36:52,130 INFO 28529 [egg-security] use xssProtection middleware
+2020-02-29 22:36:52,131 INFO 28529 [egg-security] use xframe middleware
+2020-02-29 22:36:52,131 INFO 28529 [egg-security] use dta middleware
+2020-02-29 22:36:52,131 INFO 28529 [egg-security] compose 7 middlewares into one security middleware
+2020-02-29 22:36:52,143 INFO 28529 [egg:core] dump config after load, 5ms
+2020-02-29 22:36:52,157 INFO 28529 [egg-watcher:application] watcher start success
+2020-02-29 22:36:52,163 INFO 28529 [egg:core] dump config after ready, 4ms
+2020-02-29 23:22:06,865 INFO 28846 [egg:logger] init all loggers with options: {"dir":"/Users/asher/study/wx-housework/logs/ls","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ls-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-02-29 23:22:06,891 INFO 28846 [egg-multipart] stream mode enable
+2020-02-29 23:22:06,986 INFO 28846 [egg-static] starting static serve /public/ -> /Users/asher/study/wx-housework/app/public
+2020-02-29 23:22:06,989 INFO 28846 [egg-security] use csrf middleware
+2020-02-29 23:22:06,990 INFO 28846 [egg-security] use methodnoallow middleware
+2020-02-29 23:22:06,991 INFO 28846 [egg-security] use noopen middleware
+2020-02-29 23:22:06,992 INFO 28846 [egg-security] use nosniff middleware
+2020-02-29 23:22:06,993 INFO 28846 [egg-security] use xssProtection middleware
+2020-02-29 23:22:06,994 INFO 28846 [egg-security] use xframe middleware
+2020-02-29 23:22:06,994 INFO 28846 [egg-security] use dta middleware
+2020-02-29 23:22:06,994 INFO 28846 [egg-security] compose 7 middlewares into one security middleware
+2020-02-29 23:22:07,008 INFO 28846 [egg:core] dump config after load, 5ms
+2020-02-29 23:22:07,022 INFO 28846 [egg-watcher:application] watcher start success
+2020-02-29 23:22:07,028 INFO 28846 [egg:core] dump config after ready, 4ms
+2020-02-29 23:28:13,673 INFO 28865 [egg:logger] init all loggers with options: {"dir":"/Users/asher/study/wx-housework/logs/ls","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ls-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-02-29 23:28:13,703 INFO 28865 [egg-multipart] stream mode enable
+2020-02-29 23:28:13,764 INFO 28865 [egg-static] starting static serve /public/ -> /Users/asher/study/wx-housework/app/public
+2020-02-29 23:28:13,767 INFO 28865 [egg-security] use csrf middleware
+2020-02-29 23:28:13,768 INFO 28865 [egg-security] use methodnoallow middleware
+2020-02-29 23:28:13,768 INFO 28865 [egg-security] use noopen middleware
+2020-02-29 23:28:13,769 INFO 28865 [egg-security] use nosniff middleware
+2020-02-29 23:28:13,770 INFO 28865 [egg-security] use xssProtection middleware
+2020-02-29 23:28:13,770 INFO 28865 [egg-security] use xframe middleware
+2020-02-29 23:28:13,771 INFO 28865 [egg-security] use dta middleware
+2020-02-29 23:28:13,771 INFO 28865 [egg-security] compose 7 middlewares into one security middleware
+2020-02-29 23:28:13,781 INFO 28865 [egg:core] dump config after load, 5ms
+2020-02-29 23:28:13,791 INFO 28865 [egg-watcher:application] watcher start success
+2020-02-29 23:28:13,796 INFO 28865 [egg:core] dump config after ready, 3ms
+2020-02-29 23:48:38,125 INFO 28922 [egg:logger] init all loggers with options: {"dir":"/Users/asher/study/wx-housework/logs/ls","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ls-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-02-29 23:48:38,155 INFO 28922 [egg-multipart] stream mode enable
+2020-02-29 23:48:38,213 INFO 28922 [egg-static] starting static serve /public/ -> /Users/asher/study/wx-housework/app/public
+2020-02-29 23:48:38,216 INFO 28922 [egg-security] use csrf middleware
+2020-02-29 23:48:38,217 INFO 28922 [egg-security] use methodnoallow middleware
+2020-02-29 23:48:38,217 INFO 28922 [egg-security] use noopen middleware
+2020-02-29 23:48:38,218 INFO 28922 [egg-security] use nosniff middleware
+2020-02-29 23:48:38,219 INFO 28922 [egg-security] use xssProtection middleware
+2020-02-29 23:48:38,219 INFO 28922 [egg-security] use xframe middleware
+2020-02-29 23:48:38,220 INFO 28922 [egg-security] use dta middleware
+2020-02-29 23:48:38,220 INFO 28922 [egg-security] compose 7 middlewares into one security middleware
+2020-02-29 23:48:38,229 INFO 28922 [egg:core] dump config after load, 4ms
+2020-02-29 23:48:38,239 INFO 28922 [egg-watcher:application] watcher start success
+2020-02-29 23:48:38,243 INFO 28922 [egg:core] dump config after ready, 2ms
+2020-02-29 23:49:29,125 INFO 28924 [egg:logger] init all loggers with options: {"dir":"/Users/asher/study/wx-housework/logs/ls","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ls-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-02-29 23:49:29,154 INFO 28924 [egg-multipart] stream mode enable
+2020-02-29 23:49:29,216 INFO 28924 [egg-static] starting static serve /public/ -> /Users/asher/study/wx-housework/app/public
+2020-02-29 23:49:29,219 INFO 28924 [egg-security] use csrf middleware
+2020-02-29 23:49:29,223 INFO 28924 [egg-security] use methodnoallow middleware
+2020-02-29 23:49:29,224 INFO 28924 [egg-security] use noopen middleware
+2020-02-29 23:49:29,225 INFO 28924 [egg-security] use nosniff middleware
+2020-02-29 23:49:29,226 INFO 28924 [egg-security] use xssProtection middleware
+2020-02-29 23:49:29,226 INFO 28924 [egg-security] use xframe middleware
+2020-02-29 23:49:29,227 INFO 28924 [egg-security] use dta middleware
+2020-02-29 23:49:29,227 INFO 28924 [egg-security] compose 7 middlewares into one security middleware
+2020-02-29 23:49:29,238 INFO 28924 [egg:core] dump config after load, 5ms
+2020-02-29 23:49:29,248 INFO 28924 [egg-watcher:application] watcher start success
+2020-02-29 23:49:29,253 INFO 28924 [egg:core] dump config after ready, 3ms
+2020-02-29 23:49:51,703 INFO 28926 [egg:logger] init all loggers with options: {"dir":"/Users/asher/study/wx-housework/logs/ls","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ls-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-02-29 23:49:51,731 INFO 28926 [egg-multipart] stream mode enable
+2020-02-29 23:49:51,764 INFO 28926 [egg-static] starting static serve /public/ -> /Users/asher/study/wx-housework/app/public
+2020-02-29 23:49:51,766 INFO 28926 [egg-security] use csrf middleware
+2020-02-29 23:49:51,766 INFO 28926 [egg-security] use methodnoallow middleware
+2020-02-29 23:49:51,767 INFO 28926 [egg-security] use noopen middleware
+2020-02-29 23:49:51,767 INFO 28926 [egg-security] use nosniff middleware
+2020-02-29 23:49:51,767 INFO 28926 [egg-security] use xssProtection middleware
+2020-02-29 23:49:51,768 INFO 28926 [egg-security] use xframe middleware
+2020-02-29 23:49:51,768 INFO 28926 [egg-security] use dta middleware
+2020-02-29 23:49:51,768 INFO 28926 [egg-security] compose 7 middlewares into one security middleware
+2020-02-29 23:49:51,776 INFO 28926 [egg:core] dump config after load, 4ms
+2020-02-29 23:49:51,790 INFO 28926 [egg-watcher:application] watcher start success
+2020-02-29 23:49:51,794 INFO 28926 [egg:core] dump config after ready, 3ms
+2020-02-29 23:49:53,792 INFO 28927 [egg:logger] init all loggers with options: {"dir":"/Users/asher/study/wx-housework/logs/ls","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ls-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-02-29 23:49:53,821 INFO 28927 [egg-multipart] stream mode enable
+2020-02-29 23:49:53,851 INFO 28927 [egg-static] starting static serve /public/ -> /Users/asher/study/wx-housework/app/public
+2020-02-29 23:49:53,853 INFO 28927 [egg-security] use csrf middleware
+2020-02-29 23:49:53,853 INFO 28927 [egg-security] use methodnoallow middleware
+2020-02-29 23:49:53,854 INFO 28927 [egg-security] use noopen middleware
+2020-02-29 23:49:53,854 INFO 28927 [egg-security] use nosniff middleware
+2020-02-29 23:49:53,854 INFO 28927 [egg-security] use xssProtection middleware
+2020-02-29 23:49:53,855 INFO 28927 [egg-security] use xframe middleware
+2020-02-29 23:49:53,855 INFO 28927 [egg-security] use dta middleware
+2020-02-29 23:49:53,855 INFO 28927 [egg-security] compose 7 middlewares into one security middleware
+2020-02-29 23:49:53,867 INFO 28927 [egg:core] dump config after load, 8ms
+2020-02-29 23:49:53,877 INFO 28927 [egg-watcher:application] watcher start success
+2020-02-29 23:49:53,882 INFO 28927 [egg:core] dump config after ready, 4ms
+2020-03-01 00:00:00,025 INFO 28927 [egg-logrotator] clean all log before 31 days
+2020-03-01 00:00:01,022 INFO 28927 [egg-logrotator] broadcast log-reload
+2020-03-01 00:00:01,022 INFO 28927 [egg-logrotator] rotate files success by DayRotator, files ["/Users/asher/study/wx-housework/logs/ls/common-error.log -> /Users/asher/study/wx-housework/logs/ls/common-error.log.2020-02-29","/Users/asher/study/wx-housework/logs/ls/ls-web.log -> /Users/asher/study/wx-housework/logs/ls/ls-web.log.2020-02-29","/Users/asher/study/wx-housework/logs/ls/egg-web.log -> /Users/asher/study/wx-housework/logs/ls/egg-web.log.2020-02-29","/Users/asher/study/wx-housework/logs/ls/egg-schedule.log -> /Users/asher/study/wx-housework/logs/ls/egg-schedule.log.2020-02-29","/Users/asher/study/wx-housework/logs/ls/egg-agent.log -> /Users/asher/study/wx-housework/logs/ls/egg-agent.log.2020-02-29"]

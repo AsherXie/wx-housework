@@ -1,0 +1,285 @@
+{
+  "keys": "/Users/asher/study/wx-housework/config/config.default.js",
+  "security": {
+    "csrf": {
+      "headerName": "/Users/asher/study/wx-housework/config/config.default.js",
+      "enable": "/Users/asher/study/wx-housework/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+      "type": "/Users/asher/study/wx-housework/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/asher/study/wx-housework/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+      "useSession": "/Users/asher/study/wx-housework/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+      "cookieName": "/Users/asher/study/wx-housework/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+      "sessionName": "/Users/asher/study/wx-housework/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+      "bodyName": "/Users/asher/study/wx-housework/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+      "queryName": "/Users/asher/study/wx-housework/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/asher/study/wx-housework/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
+    },
+    "domainWhiteList": "/Users/asher/study/wx-housework/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/asher/study/wx-housework/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/asher/study/wx-housework/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/Users/asher/study/wx-housework/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+      "value": "/Users/asher/study/wx-housework/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/asher/study/wx-housework/node_modules/_egg-security@2.7.1@egg-security/config/config.local.js",
+      "maxAge": "/Users/asher/study/wx-housework/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/asher/study/wx-housework/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/asher/study/wx-housework/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/asher/study/wx-housework/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/asher/study/wx-housework/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/asher/study/wx-housework/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/asher/study/wx-housework/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+      "value": "/Users/asher/study/wx-housework/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/asher/study/wx-housework/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+      "value": "/Users/asher/study/wx-housework/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/asher/study/wx-housework/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+      "policy": "/Users/asher/study/wx-housework/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/asher/study/wx-housework/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+      "checkAddress": "/Users/asher/study/wx-housework/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
+    }
+  },
+  "view": {
+    "defaultViewEngine": "/Users/asher/study/wx-housework/config/config.default.js",
+    "mapping": {
+      ".html": "/Users/asher/study/wx-housework/config/config.default.js"
+    },
+    "root": "/Users/asher/study/wx-housework/node_modules/_egg-view@2.1.2@egg-view/config/config.default.js",
+    "cache": "/Users/asher/study/wx-housework/node_modules/_egg-view@2.1.2@egg-view/config/config.local.js",
+    "defaultExtension": "/Users/asher/study/wx-housework/node_modules/_egg-view@2.1.2@egg-view/config/config.default.js"
+  },
+  "session": {
+    "maxAge": "/Users/asher/study/wx-housework/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
+    "key": "/Users/asher/study/wx-housework/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
+    "httpOnly": "/Users/asher/study/wx-housework/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
+    "encrypt": "/Users/asher/study/wx-housework/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Users/asher/study/wx-housework/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/asher/study/wx-housework/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js",
+    "callback": "/Users/asher/study/wx-housework/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js",
+    "csrf": "/Users/asher/study/wx-housework/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/asher/study/wx-housework/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/asher/study/wx-housework/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js",
+    "templatePath": "/Users/asher/study/wx-housework/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/asher/study/wx-housework/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
+    "dirs": "/Users/asher/study/wx-housework/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
+    "queryField": "/Users/asher/study/wx-housework/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
+    "cookieField": "/Users/asher/study/wx-housework/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/asher/study/wx-housework/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/asher/study/wx-housework/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/asher/study/wx-housework/node_modules/_egg-watcher@3.1.0@egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/asher/study/wx-housework/node_modules/_egg-watcher@3.1.0@egg-watcher/config/config.default.js",
+      "development": "/Users/asher/study/wx-housework/node_modules/_egg-watcher@3.1.0@egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/asher/study/wx-housework/node_modules/_egg-schedule@3.6.4@egg-schedule/config/config.default.js",
+      "file": "/Users/asher/study/wx-housework/node_modules/_egg-schedule@3.6.4@egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/asher/study/wx-housework/node_modules/_egg-schedule@3.6.4@egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/asher/study/wx-housework/node_modules/_egg-multipart@2.10.1@egg-multipart/config/config.default.js",
+    "autoFields": "/Users/asher/study/wx-housework/node_modules/_egg-multipart@2.10.1@egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/asher/study/wx-housework/node_modules/_egg-multipart@2.10.1@egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/asher/study/wx-housework/node_modules/_egg-multipart@2.10.1@egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/asher/study/wx-housework/node_modules/_egg-multipart@2.10.1@egg-multipart/config/config.default.js",
+    "fields": "/Users/asher/study/wx-housework/node_modules/_egg-multipart@2.10.1@egg-multipart/config/config.default.js",
+    "fileSize": "/Users/asher/study/wx-housework/node_modules/_egg-multipart@2.10.1@egg-multipart/config/config.default.js",
+    "files": "/Users/asher/study/wx-housework/node_modules/_egg-multipart@2.10.1@egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/asher/study/wx-housework/node_modules/_egg-multipart@2.10.1@egg-multipart/config/config.default.js",
+    "whitelist": "/Users/asher/study/wx-housework/node_modules/_egg-multipart@2.10.1@egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/asher/study/wx-housework/node_modules/_egg-multipart@2.10.1@egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/asher/study/wx-housework/node_modules/_egg-multipart@2.10.1@egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/asher/study/wx-housework/node_modules/_egg-development@2.4.3@egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/asher/study/wx-housework/node_modules/_egg-development@2.4.3@egg-development/config/config.default.js",
+    "fastReady": "/Users/asher/study/wx-housework/node_modules/_egg-development@2.4.3@egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/asher/study/wx-housework/node_modules/_egg-development@2.4.3@egg-development/config/config.default.js",
+    "overrideDefault": "/Users/asher/study/wx-housework/node_modules/_egg-development@2.4.3@egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/asher/study/wx-housework/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/asher/study/wx-housework/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/asher/study/wx-housework/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/asher/study/wx-housework/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/asher/study/wx-housework/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/asher/study/wx-housework/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/asher/study/wx-housework/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/asher/study/wx-housework/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "dir": "/Users/asher/study/wx-housework/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "dynamic": "/Users/asher/study/wx-housework/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "preload": "/Users/asher/study/wx-housework/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "buffer": "/Users/asher/study/wx-housework/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "maxFiles": "/Users/asher/study/wx-housework/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js"
+  },
+  "nunjucks": {
+    "autoescape": "/Users/asher/study/wx-housework/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/config/config.default.js",
+    "throwOnUndefined": "/Users/asher/study/wx-housework/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/config/config.default.js",
+    "trimBlocks": "/Users/asher/study/wx-housework/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/config/config.default.js",
+    "lstripBlocks": "/Users/asher/study/wx-housework/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/config/config.default.js",
+    "cache": "/Users/asher/study/wx-housework/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/config/config.local.js"
+  },
+  "env": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js",
+  "name": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js",
+  "cookies": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js",
+  "proxy": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js",
+  "maxIpsCount": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js",
+  "maxProxyCount": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js",
+  "protocolHeaders": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js",
+  "ipHeaders": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js",
+  "hostHeaders": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "version": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "description": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "main": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "scripts": {
+      "dev": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "test": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "url": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js"
+    },
+    "author": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "license": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "bugs": {
+      "url": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js"
+    },
+    "homepage": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "dependencies": {
+      "await-stream-ready": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "egg": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "egg-view-nunjucks": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "moment": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "stream-wormhole": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "egg-bin": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js"
+    }
+  },
+  "baseDir": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js",
+  "HOME": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js",
+  "rundir": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "notFound": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "sitefile": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "middlewares": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "httpClient": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "encoding": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "formLimit": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "jsonLimit": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "textLimit": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "strict": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "depth": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "parameterLimit": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js"
+    },
+    "onerror": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "encoding": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "env": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "level": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "consoleLevel": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "outputJSON": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "buffer": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "appLogName": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "coreLogName": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "agentLogName": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "errorLogName": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "maxSockets": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "maxFreeSockets": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "maxSockets": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "maxFreeSockets": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "logging": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js",
+  "workerStartTimeout": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js",
+  "serverTimeout": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "port": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "hostname": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "responseTimeout": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js"
+  },
+  "onClientError": "/Users/asher/study/wx-housework/node_modules/_egg@2.26.0@egg/config/config.default.js"
+}
